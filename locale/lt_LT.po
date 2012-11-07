@@ -8,15 +8,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2012-01-11 14:48+0100\n"
-"Last-Translator: Bart Kummel <bart@kummelweb.nl>\n"
-"Language-Team: Bart Kummel <bart@kummelweb.nl>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Poedit-Language: Dutch\n"
-"X-Poedit-Country: NETHERLANDS\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2\n"
-"X-Poedit-Basepath: ~/Downloads/redirection\n"
+"PO-Revision-Date: 2011-08-31 00:43+0200\n"
+"Last-Translator: Тарас Данилюк <nikman851@gmail.com>\n"
+"Language-Team: Nata Strazda <nata.strazda@gmail.com>\n"
+"X-Poedit-Language: Lithuanian\n"
+"X-Poedit-Country: LITHUANIA\n"
 
 #: fileio/csv.php:21
 msgid "module_%d.csv"
@@ -28,37 +24,37 @@ msgstr "module_%d.xml"
 
 #: fileio/xml.php:105
 msgid "%s imported on %s at %s"
-msgstr "%s geïmporteerd op %s naar %s"
+msgstr "%s imported on %s at %s"
 
 #: fileio/xml.php:168
 msgid "XML importing is only available with PHP5 - you have PHP4."
-msgstr "XML-import is alleen beschikbaar in PHP5, maar jij hebt PHP4."
+msgstr "XML importuoti tik su PHP5 turite PHP4."
 
 #: view/admin/group_list.php:6
 msgid "Groups for module"
-msgstr "Groepen voor module"
+msgstr "Už modulio grupės"
 
 #: view/admin/group_list.php:16
 #: view/admin/log.php:38
 msgid "Module"
-msgstr "Module"
+msgstr "modulio "
 
 #: view/admin/group_list.php:21
 #: view/admin/log.php:16
 #: view/admin/log.php:23
 #: view/admin/item_list.php:29
 msgid "Search"
-msgstr "Zoeken"
+msgstr "paieška"
 
 #: view/admin/group_list.php:26
 msgid "go"
-msgstr "ga"
+msgstr "eiti"
 
 #: view/admin/group_list.php:36
 #: view/admin/item_list.php:42
 #: view/admin/module_list.php:17
 msgid "Hits"
-msgstr "Hits"
+msgstr "Hitai"
 
 #: view/admin/group_list.php:37
 #: view/admin/group_list.php:100
@@ -66,107 +62,107 @@ msgstr "Hits"
 #: view/admin/module_list.php:42
 #: view/admin/group_edit.php:6
 msgid "Name"
-msgstr "Naam"
+msgstr "pavadinimas"
 
 #: view/admin/group_list.php:59
 #: view/admin/item_list.php:67
 msgid "Select All"
-msgstr "Alles selecteren"
+msgstr "Žymėti viską"
 
 #: view/admin/group_list.php:60
 #: view/admin/item_list.php:68
 msgid "Toggle"
-msgstr "Schakelen"
+msgstr "perjungti"
 
 #: view/admin/group_list.php:61
 #: view/admin/item_list.php:69
 msgid "Reset Hits"
-msgstr "Reset hits"
+msgstr "Atstatyti Hitai"
 
 #: view/admin/group_list.php:62
 #: view/admin/log.php:30
 #: view/admin/item_list.php:70
 #: view/admin/options.php:120
 msgid "Delete"
-msgstr "Verwijderen"
+msgstr "panaikinti"
 
 #: view/admin/group_list.php:64
 #: view/admin/item_list.php:72
 msgid "Move To"
-msgstr "Verplaatsen naar"
+msgstr "perkelti į"
 
 #: view/admin/group_list.php:69
 #: view/admin/item_list.php:34
 #: view/admin/item_list.php:77
 msgid "Go"
-msgstr "Ga"
+msgstr "eiti"
 
 #: view/admin/group_list.php:75
 #: view/admin/item_list.php:83
 msgid "re-order"
-msgstr "Volgorde aanpassen"
+msgstr "užsakymą"
 
 #: view/admin/group_list.php:76
 #: view/admin/item_list.php:84
 msgid "save order"
-msgstr "volgorde opslaan"
+msgstr "išsaugoti, kad"
 
 #: view/admin/group_list.php:89
 msgid "You have no groups in this module."
-msgstr "Je hebt geen groepen in deze module."
+msgstr "Jūs neturite šiame modulyje grupių"
 
 #: view/admin/group_list.php:94
 msgid "Add Group"
-msgstr "Groep toevoegen"
+msgstr "Pridėti grupę"
 
 #: view/admin/group_list.php:105
 msgid "Add"
-msgstr "Toevoegen"
+msgstr "Pridėti grupę"
 
 #: view/admin/group_list.php:117
 #: view/admin/log.php:112
 #: view/admin/item_list.php:112
 #: redirection.php:116
 msgid "No items have been selected"
-msgstr "Er zijn geen items geselecteerd."
+msgstr "Nėra elementų, buvo atrinkti"
 
 #: view/admin/group_list.php:118
 #: view/admin/log.php:113
 #: view/admin/item_list.php:113
 #: redirection.php:115
 msgid "Are you sure?"
-msgstr "Weet je het zeker?"
+msgstr "Ar tikrai?"
 
 #: view/admin/submenu.php:6
 msgid "Redirects"
-msgstr "Redirects"
+msgstr "nukreipimus"
 
 #: view/admin/submenu.php:11
 #: view/admin/module_list.php:15
 msgid "Groups"
-msgstr "Groepen"
+msgstr "grupės"
 
 #: view/admin/submenu.php:16
 #: view/admin/module_list.php:6
 msgid "Modules"
-msgstr "Modules"
+msgstr "moduliai"
 
 #: view/admin/submenu.php:21
 msgid "Log"
-msgstr "Log"
+msgstr "Prisijungti"
 
 #: view/admin/submenu.php:26
 #: view/admin/options.php:6
 msgid "Options"
-msgstr "Instellingen"
+msgstr "parinktys"
 
 #: view/admin/submenu.php:31
 msgid "Support"
-msgstr "Ondersteuning"
+msgstr "parama"
 
 #: view/admin/module_item.php:23
 msgid "View as"
-msgstr "Bekijk als"
+msgstr "Žiūrėti kaip"
 
 #: view/admin/module_item.php:25
 msgid "CSV"
@@ -188,530 +184,530 @@ msgstr "RSS"
 
 #: view/admin/module_item.php:41
 msgid "edit"
-msgstr "bewerk"
+msgstr "redaguoti"
 
 #: view/admin/module_item.php:43
 msgid "delete"
-msgstr "verwijder"
+msgstr "panaikinti"
 
 #: view/admin/module_item.php:45
 msgid "reset"
-msgstr "reset"
+msgstr "iš naujo"
 
 #: view/admin/log.php:6
 msgid "Redirection Log"
-msgstr "Redirection-log"
+msgstr "Nukreipiama Prisijungti"
 
 #: view/admin/log.php:29
 msgid "Bulk Actions"
-msgstr "Bulkacties"
+msgstr "Tūrinės veiksmai"
 
 #: view/admin/log.php:33
 msgid "Apply"
-msgstr "Toepassen"
+msgstr "taikyti"
 
 #: view/admin/log.php:43
 #: view/admin/item_list.php:24
 #: view/admin/add.php:36
 msgid "Group"
-msgstr "Groep"
+msgstr "grupė"
 
 #: view/admin/log.php:49
 msgid "Filter"
-msgstr "Filter"
+msgstr "filtras"
 
 #: view/admin/log.php:67
 msgid "Date"
-msgstr "Datum"
+msgstr "data"
 
 #: view/admin/log.php:68
 #: view/admin/log_item_details.php:4
 #: view/admin/item_edit.php:15
 #: view/admin/add.php:12
 msgid "Source URL"
-msgstr "Bron-URL"
+msgstr "šaltinio URL"
 
 #: view/admin/log.php:69
 #: matches/referrer.php:40
 msgid "Referrer"
-msgstr "Referrer"
+msgstr "nuorodą"
 
 #: view/admin/log.php:70
 msgid "IP"
-msgstr "IP-adres"
+msgstr ""
 
 #: view/admin/log.php:85
 msgid "There are no logs to display!"
-msgstr "Er zijn geen logs om weer te geven!"
+msgstr "Nėra rąstų, kuriuos būtų galima parodyti!"
 
 #: view/admin/log.php:94
 msgid "Process Current Logs"
-msgstr "Huidige logs verwerken"
+msgstr "Tvarkyti Aktualus Įrašai"
 
 #: view/admin/log.php:95
 msgid "These actions will affect all currently available logs (i.e. your search phrase will restrict the log items)."
-msgstr "Deze acties zijn op alle momenteel beschikbare logs van toepassing. (Dus je zoektermen beperken de log-items.)"
+msgstr "Šie veiksmai turės įtakos visų šiuo metu turimų rąstų (ty savo paieškos frazę apriboti žurnalo elementus)."
 
 #: view/admin/log.php:100
 msgid "Delete Logs"
-msgstr "Verwijder logs"
+msgstr "ištrinti Įrašai"
 
 #: view/admin/item_list.php:7
 msgid "Redirections for group"
-msgstr "Redirects voor groep"
+msgstr "Peradresavimai, grupės"
 
 #: view/admin/item_list.php:41
 msgid "Last Access"
-msgstr "Laatste hit"
+msgstr "Paskutinis apsilankymas"
 
 #: view/admin/item_list.php:43
 #: view/admin/module_list.php:46
 msgid "Type"
-msgstr "Type"
+msgstr "tipas"
 
 #: view/admin/item_list.php:44
 msgid "URL"
-msgstr "URL"
+msgstr ""
 
 #: view/admin/item_list.php:44
 msgid "Position"
-msgstr "Positie"
+msgstr "pozicija"
 
 #: view/admin/item_list.php:88
 msgid "You have no redirections."
-msgstr "Je hebt geen redirects."
+msgstr "Jūs neturite nukreipimai."
 
 #: view/admin/log_item_details.php:9
 msgid "Redirect to"
-msgstr "Redirect naar"
+msgstr "nukreipti į"
 
 #: view/admin/log_item_details.php:15
 msgid "Redirected by"
-msgstr "Ge-redirect door"
+msgstr "Nukreipta pagal"
 
 #: view/admin/log_item_details.php:16
 msgid "for"
-msgstr "voor"
+msgstr "už"
 
 #: view/admin/log_item_details.php:20
 #: matches/user_agent.php:43
 msgid "User Agent"
-msgstr "User agent"
+msgstr ""
 
 #: view/admin/item.php:27
 #: view/admin/group_item.php:23
 msgid "disabled"
-msgstr "uitgeschakeld"
+msgstr "neįgaliesiems"
 
 #: view/admin/item_edit.php:3
 msgid "%s by matching %s"
-msgstr "%s door te vergelijken met %s"
+msgstr ""
 
 #: view/admin/item_edit.php:7
 msgid "Title"
-msgstr "Titel"
+msgstr "pavadinimas"
 
 #: view/admin/item_edit.php:10
 msgid "optional"
-msgstr "optioneel"
+msgstr "neprivalomas"
 
 #: view/admin/item_edit.php:18
 #: matches/referrer.php:43
 msgid "Regex"
-msgstr "Regex"
+msgstr ""
 
 #: view/admin/item_edit.php:27
 #: view/admin/module_edit.php:27
 #: view/admin/group_edit.php:20
 msgid "Save"
-msgstr "Opslaan"
+msgstr "sutaupyti"
 
 #: view/admin/item_edit.php:28
 #: view/admin/module_edit.php:28
 #: view/admin/group_edit.php:21
 msgid "Cancel"
-msgstr "Annuleren"
+msgstr "atšaukti"
 
 #: view/admin/add.php:3
 msgid "Add new redirection"
-msgstr "Nieuwe redirect toevoegen"
+msgstr "Pridėti naują peradresavimo"
 
 #: view/admin/add.php:6
 msgid "Your redirection has been added."
-msgstr "Je redirect is toegevoegd."
+msgstr "Jūsų peradresavimo buvo įtrauktas."
 
 #: view/admin/add.php:16
 msgid "Match"
-msgstr "Vergelijk met"
+msgstr "rungtynės"
 
 #: view/admin/add.php:22
 msgid "Action"
-msgstr "Actie"
+msgstr "veiksmas"
 
 #: view/admin/add.php:27
 msgid "Regular expression"
-msgstr "Reguliere expressie"
+msgstr "reguliaraus išraiška"
 
 #: view/admin/add.php:31
 #: matches/url.php:32
 msgid "Target URL"
-msgstr "Doel-URL"
+msgstr "Paskirties URL"
 
 #: view/admin/add.php:43
 msgid "Add Redirection"
-msgstr "Voeg redirect toe"
+msgstr "Pridėti Nukreipiama"
 
 #: view/admin/group_item.php:3
 msgid "edit group"
-msgstr "bewerk groep"
+msgstr "redaguoti grupę"
 
 #: view/admin/module_list.php:14
 msgid "Details"
-msgstr "Details"
+msgstr "Išsamiau"
 
 #: view/admin/module_list.php:16
 msgid "Items"
-msgstr "Items"
+msgstr "daiktai"
 
 #: view/admin/module_list.php:18
 msgid "Operations"
-msgstr "Acties"
+msgstr "operacijų"
 
 #: view/admin/module_list.php:27
 msgid "Note: Hits are dependant on log entries"
-msgstr "NB: hits zijn afhankelijk van log-regels."
+msgstr "Pastaba: Hitai priklauso nuo žurnalo įrašus"
 
 #: view/admin/module_list.php:29
 msgid "You have no modules defined yet"
-msgstr "Je hebt nog geen modules gedefinieerd."
+msgstr "Jūs turite ne dar apibrėžti moduliai"
 
 #: view/admin/module_list.php:34
 msgid "Add Module"
-msgstr "Voeg module toe"
+msgstr ""
 
 #: view/admin/module_list.php:35
 msgid "A module is a controlling element that determines how redirections are handled.  Elements in a WordPress module are handled by WordPress, elements in an Apache module are handled by <code>.htaccess</code>, and elements in a 404 module affect how 404 errors are logged."
-msgstr "Een module bepaalt hoe redirects worden afgehandeld. Elementen in een WordPress-module worden afgehandeld door WordPress, elementen in een Apache-module worden afgehandeld door een <code>.htaccess</code>-bestand en elementen in een 404-module bepalen hoe 404-errors worden gelogd."
+msgstr "Modulis yra kontrolės elementas, kuris nustato, kaip tvarkomi nukreipimai. Tvarko WordPress WordPress modulio elementų, Apache modulis elementai tvarkomi pagal <code>. htaccess</ ode> ir 404 modulis elementai veikia kaip klaidas 404 prisijungęs."
 
 #: view/admin/module_list.php:55
 msgid "Create"
-msgstr "Maak aan"
+msgstr "kurti"
 
 #: view/admin/support.php:5
 msgid "Redirection Support"
-msgstr "Ondersteun Redirection"
+msgstr ""
 
 #: view/admin/support.php:9
 msgid "Redirection is free to use - life is wonderful and lovely!  However, it has required a great deal of time and effort to develop and if it has been useful you can help support this development by <strong>making a small donation</strong>."
-msgstr "Je mag Redirection gratis gebruiken - het leven is vurrukuluk! Desalniettemin heeft het veel tijd en moeite gekost om Redirection te ontwikkelen. Als je Redirection handig vind, kan je de ontwikkeling ondersteunen door een <strong>kleine donatie</strong> te doen."
+msgstr "Nukreipiama laisvai naudotis - gyvenimas yra nuostabus ir mielas! Tačiau, ji reikalauja daug laiko ir pastangų plėtoti ir, jei ji buvo naudinga, galite padėti remti šią plėtrą <strong>mažą donorystės</strong>."
 
 #: view/admin/support.php:10
 msgid "This will act as an incentive for me to carry on developing, providing countless hours of support, and including new features and suggestions. You get some useful software and I get to carry on making it.  Everybody wins."
-msgstr "Dit zal me stimuleren om verder te gaan met de ontwikkeling, ontelbare uren ondersteuning te verlenen en nieuwe functies en ideeën te maken. Jij krijgt handige software en ik kan doorgaan die te maken. Een win-win-situatie!"
+msgstr ""
 
 #: view/admin/support.php:13
 msgid "If you are using this plugin in a commercial setup, or feel that it's been particularly useful, then you may want to consider a <strong>commercial donation</strong>."
-msgstr "Als je de Redirection-plugin gebruikt in een commerciële omgeving, of als je gewoon supertevreden bent, kan je overwegen een <strong>commerciële donatie</strong> te doen."
+msgstr "Jei jūs naudojate šią plugin komercinės sąrankos, arba jaučia, kad tai buvo ypač naudinga, tada galbūt norėsite apsvarstyti <strong>komercinę donorystę</strong>."
 
 #: view/admin/support.php:36
 msgid "Individual<br/>Donation"
-msgstr "Individuele<br/>donatie"
+msgstr "Individualus <br/> Donorystė"
 
 #: view/admin/support.php:56
 msgid "Commercial<br/>Donation"
-msgstr "Commerciële<br/>donatie"
+msgstr "Komercinis <br/> Donorystė"
 
 #: view/admin/support.php:60
 msgid "Translations"
-msgstr "Vertalingen"
+msgstr "vertimai"
 
 #: view/admin/support.php:62
 msgid "If you're multi-lingual then you may want to consider donating a translation:"
-msgstr "Als je meertalig bent, kan je overwegen een vertaling te doneren:"
+msgstr "Jei esate daugiakalbiai, tada jūs galbūt norėsite apsvarstyti dovanojančios vertimą:"
 
 #: view/admin/support.php:70
 msgid "All translators will have a link to their website placed on the plugin homepage at <a href=\"http://urbangiraffe.com/plugins/redirection/\">UrbanGiraffe</a>, in addition to being an individual supporter."
-msgstr "Alle vertalers krijgen een link naar hun website op de plugin-homepage: <a href=\"http://urbangiraffe.com/plugins/redirection/\">UrbanGiraffe</a>. Daarnaast krijgen ze de status van individuele supporter."
+msgstr "Visi vertėjai turės pateikti nuorodą į savo svetainę pagrindiniame puslapyje įjungti <a href=\"http://urbangiraffe.com/plugins/redirection/\"> UrbanGiraffe</a>, be to yra individualus rėmėjas."
 
 #: view/admin/support.php:71
 msgid "Full details of producing a translation can be found in this <a href=\"http://urbangiraffe.com/articles/translating-wordpress-themes-and-plugins/\">guide to translating WordPress plugins</a>."
-msgstr "Uitgebreide uitleg over het maken van een vertaling kan je vinden in de Engelstalige <a href=\"http://urbangiraffe.com/articles/translating-wordpress-themes-and-plugins/\">guide to translating WordPress plugins</a>."
+msgstr ""
 
 #: view/admin/options.php:15
 msgid "Auto-generate URL"
-msgstr "URL automatisch genereren"
+msgstr ""
 
 #: view/admin/options.php:19
 msgid "This will be used to auto-generate a URL if no URL is given.  You can use the special tags $dec$ or $hex$ to have a unique ID inserted (either decimal or hex)"
-msgstr "Dit wordt gebruikt om automatisch een URL te genereren als er geen is opgegeven. Je kan de speciale tags $dec$ en $hex$ gebruiken om een unieke ID te laten invoegen, respectievelijk in decimale of hexadecimale notatie."
+msgstr "This will be used to auto-generate a URL if no URL is given.  You can use the special tags $dec$ or $hex$ to have a unique ID inserted (either decimal or hex)"
 
 #: view/admin/options.php:24
 msgid "IP Lookup Service"
-msgstr "IP-zoek-service"
+msgstr ""
 
 #: view/admin/options.php:30
 msgid "Plugin Support"
-msgstr "Ondersteuning van de plugin"
+msgstr ""
 
 #: view/admin/options.php:33
 msgid "I'm a nice person and I have helped support the author of this plugin"
-msgstr "Ik ben een aardig persoon en ik heb de auteur van deze plugin geholpen met ondersteuning."
+msgstr "Aš esu gražus ir aš padėjo remti šį papildinį autorius"
 
 #: view/admin/options.php:37
 msgid "Logging"
-msgstr "Logging"
+msgstr ""
 
 #: view/admin/options.php:40
 msgid "log redirected requests"
-msgstr "Houd ge-redirecte requests bij in een log."
+msgstr ""
 
 #: view/admin/options.php:42
 msgid "log 404 Not Found requests"
-msgstr "Houd 404-fouten bij in een log."
+msgstr ""
 
 #: view/admin/options.php:43
 msgid "Uncheck one or both of these to turn off logging and reduce database load if your redirected URLs are hit very frequently, and/or your site is very busy and pages are often not found."
-msgstr "Zet een of beide vinkjes uit om logging uit te schakelen. Daardoor kan je de belasting van de database verminderen, wat handig kan zijn als je veel redirects hebt of als je site heel drukbezocht is."
+msgstr "Atsisakykite vieno ar abiejų šių išjungti medienos ruoša ir sumažinti duomenų bazės apkrovos, jei jūsų nukreipimo URL nukentėjo labai dažnai, ir / ar jūsų svetainė yra labai užsiėmę ir dažnai nerastas puslapių."
 
 #: view/admin/options.php:47
 msgid "Expire Logs"
-msgstr "Verwijder logs na"
+msgstr ""
 
 #: view/admin/options.php:50
 msgid "days (enter 0 for no expiry)"
-msgstr "dagen (vul 0 in als je wil dat de logs nooit verwijderd worden)"
+msgstr ""
 
 #: view/admin/options.php:54
 msgid "RSS Token"
-msgstr "RSS-token"
+msgstr ""
 
 #: view/admin/options.php:57
 msgid "A unique token allowing feed readers access to Redirection RSS (leave blank to auto-generate)"
-msgstr "Een unieke token dat feed-readers toegang geeft tot Redirection RSS. (Wordt automatisch gegenereerd als je het veld leeglaat.)"
+msgstr "Leisti pašarų skaitytojams susipažinti su Nukreipiama RSS (palikti tuščią, jei norite automatiškai kurti unikalią žymę)"
 
 #: view/admin/options.php:62
 msgid "URL Monitoring"
-msgstr "URL-controle"
+msgstr "URL stebėsena"
 
 #: view/admin/options.php:63
 msgid "You can have Redirection detect changes in URLs and have an automatic redirection created in a specific group."
-msgstr "Je kan de Redirection-plugin URL-wijzigingen laten detecteren en automatisch redirects laten aanmaken in een specifieke groep."
+msgstr "Galite Nukreipiama aptikti URL ir turi automatinio peradresavimo, sukurtas konkrečiai grupei."
 
 #: view/admin/options.php:67
 msgid "Post &amp; Page URLs"
-msgstr "Berichten- &amp; pagina-URL's"
+msgstr ""
 
 #: view/admin/options.php:70
 #: view/admin/options.php:82
 msgid "Don't monitor"
-msgstr "Niet controleren"
+msgstr "Nekontroliuoja"
 
 #: view/admin/options.php:74
 msgid "Monitor new posts"
-msgstr "Controleer op nieuwe berichten"
+msgstr "Stebėti naujus pranešimus"
 
 #: view/admin/options.php:79
 msgid "Category URLs"
-msgstr "Categorie-URL's"
+msgstr "Kategorija URL"
 
 #: view/admin/options.php:89
 msgid "Update"
-msgstr "Bijwerken"
+msgstr "atnaujinti"
 
 #: view/admin/options.php:95
 msgid "Import"
-msgstr "Importeren"
+msgstr "importuoti"
 
 #: view/admin/options.php:97
 msgid "Here you can import redirections from an existing .htaccess file, a CSV file, or a Redirection XML."
-msgstr "Hier kan je redirects importeren uit een bestaand .htaccess-bestand, een CSV-bestand of een Redirection XML-bestand."
+msgstr "Čia galite importuoti nukreipimai iš esamų. Htaccess failą, CSV failą, arba Nukreipiama XML."
 
 #: view/admin/options.php:104
 msgid "Import into"
-msgstr "Importeer naar"
+msgstr "importo į"
 
 #: view/admin/options.php:107
 msgid "Upload"
-msgstr "Uploaden"
+msgstr "Įkelti"
 
 #: view/admin/options.php:110
 msgid "Note that the group is ignored when uploading an XML file."
-msgstr "Merk op dat de groep wordt genegeerd als je een XML-bestand upload."
+msgstr "Atkreipkite dėmesį, kad grupėje yra ignoruojamas, kai įkelti XML failą."
 
 #: view/admin/options.php:114
 msgid "Delete Redirection"
-msgstr "Verwijder Redirection"
+msgstr "ištrinti Nukreipiama"
 
 #: view/admin/options.php:115
 msgid "Selecting this option will delete all redirections, all logs, and any options associated with the Redirection plugin.  Make sure this is what you want to do."
-msgstr "Deze actie zal alle redirects, alle logs en alle instellingen van de Redirection-plugin verwijderen. Bezint eer ge begint!"
+msgstr "Pasirinkus šią parinktį, bus ištrinti visus peradresavimus, visų rąstų, ir bet kokių galimybių, susijusių su Nukreipiama plugin. Įsitikinkite, kad tai, ką norite daryti."
 
 #: view/admin/group_edit.php:10
 msgid "Tracked"
-msgstr "Tellen"
+msgstr "Vikšrinės"
 
 #: view/admin/group_edit.php:11
 msgid "Whether to track 'hits' to items"
-msgstr "Tel het aantal 'hits' per item"
+msgstr "Ar sekti \"hitai\" elementų"
 
 #: view/admin/group_edit.php:14
 msgid "Enabled"
-msgstr "Ingeschakeld"
+msgstr "įjungta"
 
 #: view/admin/group_edit.php:15
 msgid "Disabling a group will disable all items contained within it"
-msgstr "Als je de groep uitschakelt, worden ook alle items in de groep uitgeschakeld."
+msgstr "Išjungus grupės išjungti visus elementus, joje esančios"
 
 #: modules/404.php:37
 msgid "Log 404s"
-msgstr "Log 404-fouten"
+msgstr "Prisijungti 404s"
 
 #: modules/404.php:46
 #: modules/wordpress.php:121
 msgid "<strong>Disabled: You must enable <a href=\"options-permalink.php\">permalinks</a> before using this</strong>"
-msgstr "<strong>Uitgeschakeld: je moet <a href=\"options-permalink.php\">permalinks</a> aanzetten voordat je dit kunt gebruiken.</strong>"
+msgstr "<strong>Išjungta: Jūs turite įjungti<a href=\"options-permalink.php\">permalinks</a> before using this</strong>"
 
 #: modules/404.php:57
 msgid "<small>No options have been set</small>"
-msgstr "<small>Er zijn geen instellingen gemaakt.</small>"
+msgstr "<small>Nėra galimybės nustatyti</small>"
 
 #: modules/apache.php:77
 msgid "Location"
-msgstr "Locatie"
+msgstr "vieta"
 
 #: modules/apache.php:82
 msgid "WordPress is installed in: <code>%s</code>"
-msgstr "WordPress is geïnstalleerd in: <code>%s</code>"
+msgstr "WordPress is installed in: <code>%s</code>"
 
 #: modules/apache.php:87
 msgid "Canonical"
-msgstr "Kanoniek"
+msgstr "Canonical"
 
 #: modules/apache.php:90
 #: modules/apache.php:96
 msgid "Leave as is"
-msgstr "Laten zoals het is"
+msgstr "Leave as is"
 
 #: modules/apache.php:90
 msgid "Strip WWW (%s)"
-msgstr "WWW verwijderen (%s)"
+msgstr "Strip WWW (%s)"
 
 #: modules/apache.php:90
 msgid "Force WWW (www.%s)"
-msgstr "WWW forceren (www.%s)"
+msgstr "Force WWW (www.%s)"
 
 #: modules/apache.php:94
 msgid "Strip Index"
-msgstr "Index verwijderen"
+msgstr "Strip Index"
 
 #: modules/apache.php:96
 msgid "Strip index files (html,php)"
-msgstr "Index-bestanden verwijderen (html, php)"
+msgstr "Ruože indeksą failus (HTML, PHP)"
 
 #: modules/apache.php:101
 msgid "Memory Limit"
-msgstr "Geheugenlimiet"
+msgstr "atminties Limito"
 
 #: modules/apache.php:104
 #: modules/apache.php:109
 msgid "Server default"
-msgstr "Standaard van de server"
+msgstr "serverio nutylėjimą"
 
 #: modules/apache.php:107
 msgid "Error Level"
-msgstr "Foutniveau"
+msgstr "klaidų lygis"
 
 #: modules/apache.php:109
 msgid "No errors"
-msgstr "Geen fouten"
+msgstr "Nėra klaidų"
 
 #: modules/apache.php:109
 msgid "Show errors"
-msgstr "Toon fouten"
+msgstr "Rodyti klaidas"
 
 #: modules/apache.php:114
 msgid "Ban IPs"
-msgstr "Blokkeer IP's"
+msgstr "uždrausti IP"
 
 #: modules/apache.php:120
 msgid "Allow IPs"
-msgstr "Sta IP's toe"
+msgstr "leisti IP"
 
 #: modules/apache.php:126
 msgid "Raw .htaccess"
-msgstr "Ruwe .htaccess"
+msgstr "Žalias. Htaccess"
 
 #: modules/apache.php:132
 msgid "Site URL"
-msgstr "Site-URL"
+msgstr "Svetainės URL"
 
 #: modules/apache.php:135
 msgid "Advanced: For management of external sites"
-msgstr "Geavanceerd: voor het beheren van externe sites"
+msgstr "Detali: valdymo išorinių svetainių"
 
 #: modules/apache.php:150
 msgid "<strong>Location is invalid - check that path exists</strong>"
-msgstr "<strong>Ongeldige locatie - controleer of het pad bestaat.</strong>"
+msgstr "<strong>Vieta yra neteisingas - patikrinti, kad sekai</strong>"
 
 #: modules/apache.php:156
 msgid "<strong>Could not write to configured <code>.htaccess</code> file - check file permissions</strong>"
-msgstr "<strong>Geen schrijf-toegang tot het ingestelde <code>.htaccess</code>-bestand. Controleer de bestandsrechten.</strong>"
+msgstr "<strong> negalite rašyti sukonfigūruotas <code> Htaccess </code> Failas - patikrinti failo teises </strong>"
 
 #: modules/apache.php:163
 msgid "<strong>Disabled: enter the location of an <code>.htaccess</code> file for this to be valid</strong>"
-msgstr "<strong>Uitgeschakeld: vul de locatie van een <code>.htaccess</code>-bestand in om dit geldig te maken.</strong>"
+msgstr "<strong>neįgaliesiems įveskite <code> vietą Htaccess</code>, kad tai galioja</strong>"
 
 #: modules/apache.php:168
 msgid "strip WWW"
-msgstr "verwijder WWW"
+msgstr "juostelės WWW"
 
 #: modules/apache.php:168
 msgid "force WWW"
-msgstr "forceer WWW"
+msgstr "jėgos WWW"
 
 #: modules/apache.php:171
 msgid "strip index"
-msgstr "verwijder index"
+msgstr "juostelės indeksas"
 
 #: modules/apache.php:174
 msgid "memory limit at %dMB"
-msgstr "geheugenlimit op %dMB"
+msgstr "atminties limitą  %dMB"
 
 #: modules/apache.php:177
 msgid "no errors"
-msgstr "geen fouten"
+msgstr "nėra klaidų"
 
 #: modules/apache.php:177
 msgid "show errors"
-msgstr "toon fouten"
+msgstr "Rodyti klaidas"
 
 #: modules/apache.php:180
 msgid "IPs are banned"
-msgstr "IP's zijn geblokkeerd"
+msgstr "IP yra uždraustas"
 
 #: modules/apache.php:183
 msgid "IPs are allowed"
-msgstr "IP's zijn toegestaan"
+msgstr "IP yra leidžiama"
 
 #: models/redirect.php:386
 msgid "Redirect to URL"
-msgstr "Redirect naar URL"
+msgstr "Nukreipti į URL"
 
 #: models/redirect.php:387
 msgid "Redirect to random post"
-msgstr "Redirect naar willekeurig bericht"
+msgstr "Nukreipti į Atsitiktinis užrašas"
 
 #: models/redirect.php:388
 msgid "Pass-through"
-msgstr "Doorlaten"
+msgstr "Pass-through"
 
 #: models/redirect.php:389
 msgid "Error (404)"
-msgstr "Fout (404)"
+msgstr "Klaida (404)"
 
 #: models/redirect.php:390
 msgid "Do nothing"
-msgstr "Doe niks"
+msgstr "nieko nedaryti"
 
 #: models/module.php:161
 #: models/database.php:94
@@ -720,19 +716,19 @@ msgstr "WordPress"
 
 #: models/module.php:162
 msgid "404 Errors"
-msgstr "404-fouten"
+msgstr "404 Errors"
 
 #: models/module.php:187
 msgid "Strip WWW"
-msgstr "Verwijder WWW"
+msgstr "juostelės WWW"
 
 #: models/module.php:187
 msgid "Force WWW"
-msgstr "Forceer WWW"
+msgstr "jėga WWW"
 
 #: models/module.php:192
 msgid "Strip index.php"
-msgstr "Verwijder index.php"
+msgstr "juostelės index.php"
 
 #: models/database.php:96
 msgid "404"
@@ -740,127 +736,125 @@ msgstr "404"
 
 #: models/database.php:101
 msgid "Redirections"
-msgstr "Redirects"
+msgstr "peradresavimai"
 
 #: models/database.php:102
 msgid "Modified Posts"
-msgstr "Gewijzigde berichten"
+msgstr "Modifikuota Pranešimai"
 
 #: models/pager.php:404
 msgid "Previous"
-msgstr "Vorige"
+msgstr "ankstesnis"
 
 #: models/pager.php:405
 msgid "Next"
-msgstr "Volgende"
+msgstr "kitas"
 
 #: models/pager.php:463
 msgid "%d per-page"
-msgstr "%d per pagina"
+msgstr "%d per-page"
 
 #: models/pager.php:472
 msgid "Displaying %s&#8211;%s of %s"
-msgstr "Toont %s&#8211;%s van %s"
+msgstr "Displaying %s&#8211;%s of %s"
 
 #: models/group.php:194
 msgid "Yes"
-msgstr "Ja"
+msgstr "taip"
 
 #: models/group.php:195
 msgid "No"
-msgstr "Nee"
+msgstr "ne"
 
 #: ajax.php:370
 msgid "Sorry, but your redirection was not created"
-msgstr "Excuses, er is geen redirect aangemaakt."
+msgstr "Atsiprašome, tačiau jūsų peradresavimo nebuvo sukurta"
 
 #: redirection.php:94
 msgid "Settings"
-msgstr "Instellingen"
+msgstr "Nustatymai"
 
 #: redirection.php:112
 msgid "Please wait..."
-msgstr "Even wachten alsjeblieft..."
+msgstr "Prašome palaukti ..."
 
 #. #-#-#-#-#  plugin.pot (Redirection 2.2.5)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
 #: redirection.php:121
 msgid "Redirection"
-msgstr "Redirection"
+msgstr "Nukreipiama"
 
 #: redirection.php:159
 msgid "Your module was successfully created"
-msgstr "De module is aangemaakt."
+msgstr "Jūsų modulis buvo sėkmingai sukurta"
 
 #: redirection.php:163
 msgid "Your module was not created - did you provide a name?"
-msgstr "De module is niet aangemaakt - heb je wel een naam ingevuld?"
+msgstr "Jūsų modulis nebuvo sukurta tu vardą?"
 
 #: redirection.php:228
 msgid "Your options were updated"
-msgstr "De instellingen zijn gewijzigd."
+msgstr "Jūsų galimybės buvo atnaujintos"
 
 #: redirection.php:236
 msgid "Redirection data has been deleted and the plugin disabled"
-msgstr "Alle Redirection-data is verwijderd en de plugin is uigeschakeld."
+msgstr "Nukreipiama duomenys buvo ištrinti ir įjungti neįgaliesiems"
 
 #: redirection.php:246
 msgid "%d redirection was successfully imported"
-msgid_plural "%d redirections were successfully imported"
-msgstr[0] "Er is %d redirect geïmporteerd."
-msgstr[1] "Er zijn %d redirects geïmporteerd."
+msgstr "%d redirections were successfully imported"
 
 #: redirection.php:248
 msgid "No items were imported"
-msgstr "Er zijn geen items geïmporteerd."
+msgstr "Nėra elementų, buvo importuoti"
 
 #: redirection.php:266
 msgid "Your logs have been deleted"
-msgstr "De logs zijn verwijderd."
+msgstr "Jūsų rąstai buvo ištrintos"
 
 #: redirection.php:289
 msgid "Your group was added successfully"
-msgstr "De groep is toegevoegd."
+msgstr "Jūsų grupė buvo sėkmingai įrašytas."
 
 #: redirection.php:293
 msgid "Please specify a group name"
-msgstr "Geef de groep een naam."
+msgstr "Prašome nurodyti grupės pavadinimą,"
 
 #: redirection.php:330
 msgid "Redirection is available in"
-msgstr "Redirection is beschikbaar in het"
+msgstr "Nukreipiama yra išversta į"
 
 #: matches/url.php:25
 msgid "URL only"
-msgstr "Alleen URL"
+msgstr "tik URL"
 
 #: matches/url.php:40
 #: matches/user_agent.php:55
 #: matches/referrer.php:47
 msgid "HTTP Code"
-msgstr "HTTP-code"
+msgstr "HTTP Kodas"
 
 #: matches/login.php:25
 msgid "URL and login status"
-msgstr "URL en loginstatus"
+msgstr "URL ir prisijungimo statuso"
 
 #: matches/login.php:33
 msgid "The target URL will be chosen from one of the following URLs, depending if the user is logged in or out.  Leaving a URL blank means that the user is not redirected."
-msgstr "De doel-URL wordt gekozen uit de volgende URL's, afhankelijk van of de gebruiker wel of niet is ingelogd. Als je een URL leeglaat, wordt de gebruiker niet ge-redirect."
+msgstr "The target URL will be chosen from one of the following URLs, depending if the user is logged in or out.  Leaving a URL blank means that the user is not redirected."
 
 #: matches/login.php:39
 #: matches/login.php:41
 msgid "Logged In"
-msgstr "Ingelogd"
+msgstr "Prisijungimas:"
 
 #: matches/login.php:51
 #: matches/login.php:53
 msgid "Logged Out"
-msgstr "Uitgelogd"
+msgstr "Atsijungimas"
 
 #: matches/user_agent.php:27
 msgid "URL and user agent"
-msgstr "URL en user agent"
+msgstr "URL ir vartotojo agentas"
 
 #: matches/user_agent.php:32
 msgid "FeedBurner"
@@ -872,7 +866,7 @@ msgstr "Internet Explorer"
 
 #: matches/user_agent.php:34
 msgid "FireFox"
-msgstr "Firefox"
+msgstr "FireFox"
 
 #: matches/user_agent.php:35
 msgid "Opera"
@@ -892,43 +886,43 @@ msgstr "Nintendo Wii"
 
 #: matches/user_agent.php:66
 msgid "The visitor will be redirected from the source URL if the user agent matches.  You can specify a <em>matched</em> target URL as the address to send visitors if they do match, and <em>not matched</em> if they don't match.  Leaving a URL blank means that the visitor is not redirected. <strong>All matches are performed as regular expressions</strong>.\n"
-msgstr "De bezoeker zal worden doorgestuurd vanaf de bron-URL als de user agent overeenkomt. Je kan een <em>overeenkomende</em> URL opgeven als doel-URL voor als de user agent overeenkomt en een <em>niet overeenkomende</em> voor als de user agent anders is. Als je een URL leeg laat, wordt de gebruiker niet ge-redirect. <strong>Alle overeenkomsten worden met reguliere expressies gecontroleerd</strong>.\n"
+msgstr "Lankytojai bus nukreipiami iš šaltinio URL, jei user-agent atitinka. Galite nurodyti <em>atitiko</em>, kad paskirties URL adresą siųsti lankytojus, jei jie rungtynės, ir <em> neatitiko </em>, jei jie nesutampa. , Paliekant URL tuščią, reiškia, kad lankytojas nėra nukreipti. <strong>Visos rungtynės yra atlikti kaip reguliarios išraiškos</strong> . \n"
 
 #: matches/user_agent.php:73
 #: matches/user_agent.php:75
 #: matches/referrer.php:63
 #: matches/referrer.php:65
 msgid "Matched"
-msgstr "Overeenkomend"
+msgstr "Sutampa"
 
 #: matches/user_agent.php:83
 #: matches/user_agent.php:85
 #: matches/referrer.php:73
 #: matches/referrer.php:75
 msgid "Not matched"
-msgstr "Niet overeenkomend"
+msgstr "nesutampa"
 
 #: matches/referrer.php:28
 msgid "URL and referrer"
-msgstr "URL en referrer"
+msgstr "URL ir nukreipimo"
 
 #: matches/referrer.php:57
 msgid "The visitor will be redirected from the source URL if the referrer matches.  You can specify a <em>matched</em> target URL as the address to send visitors if they do match, and <em>not matched</em> if they don't match.  Leaving a URL blank means that the visitor is not redirected."
-msgstr "De bezoeker wordt doorgestuurd van de bron-URL als de referrer overeenkomt. Je kan een <em>overeenkomende</em> URL opgeven als doel-URL voor als de referrer overeenkomt en een <em>niet overeenkomende</em> voor als de referrer anders is. Als je een URL leeg laat, wordt de gebruiker niet ge-redirect. "
+msgstr "Lankytojas bus nukreiptas nuo šaltinio URL, jei refererių rungtynės. Galite nurodyti <em>atitiko</em>, kad paskirties URL adresą siųsti lankytojus, jei jie rungtynės, ir <em>neatitiko</ em>, jei jie nesutampa. , Paliekant URL tuščią, reiškia, kad lankytojas nėra nukreipti."
 
 #. Plugin URI of the plugin/theme
 msgid "http://urbangiraffe.com/plugins/redirection/"
-msgstr "http://urbangiraffe.com/plugins/redirection/"
+msgstr ""
 
 #. Description of the plugin/theme
 msgid "Manage all your 301 redirects and monitor 404 errors"
-msgstr "Beheer al je 301-redirects en hou 404-fouten in de gaten."
+msgstr "Tvarkyti visus savo 301 peradresavimą ir stebėti klaidas 404"
 
 #. Author of the plugin/theme
 msgid "John Godley"
-msgstr "John Godley"
+msgstr ""
 
 #. Author URI of the plugin/theme
 msgid "http://urbangiraffe.com"
-msgstr "http://urbangiraffe.com"
+msgstr ""
 

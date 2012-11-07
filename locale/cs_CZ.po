@@ -1,934 +1,1135 @@
-# Copyright (C) 2010 Redirection
-# This file is distributed under the same license as the Redirection package.
 msgid ""
 msgstr ""
 "Project-Id-Version: Redirection 2.2.5\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/redirection\n"
 "POT-Creation-Date: 2011-07-17 10:14:58+00:00\n"
+"PO-Revision-Date: 2011-08-18 13:24+0100\n"
+"Last-Translator: Martin Jurica <martin@jurica.info>\n"
+"Language-Team: Martin Jurica <martin@jurica.info>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2012-01-11 14:48+0100\n"
-"Last-Translator: Bart Kummel <bart@kummelweb.nl>\n"
-"Language-Team: Bart Kummel <bart@kummelweb.nl>\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Poedit-Language: Dutch\n"
-"X-Poedit-Country: NETHERLANDS\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2\n"
-"X-Poedit-Basepath: ~/Downloads/redirection\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
 
+#@ redirection
 #: fileio/csv.php:21
+#, php-format
 msgid "module_%d.csv"
 msgstr "module_%d.csv"
 
+#@ redirection
 #: fileio/xml.php:32
+#, php-format
 msgid "module_%d.xml"
 msgstr "module_%d.xml"
 
+#@ redirection
 #: fileio/xml.php:105
+#, php-format
 msgid "%s imported on %s at %s"
-msgstr "%s geïmporteerd op %s naar %s"
+msgstr "%s importován z %s na %s"
 
+#@ redirection
 #: fileio/xml.php:168
 msgid "XML importing is only available with PHP5 - you have PHP4."
-msgstr "XML-import is alleen beschikbaar in PHP5, maar jij hebt PHP4."
+msgstr "XML import je k dispozici pouze v PHP5 - používáte bohužel PHP4."
 
+#@ redirection
 #: view/admin/group_list.php:6
 msgid "Groups for module"
-msgstr "Groepen voor module"
+msgstr "Skupiny modulu"
 
+#@ redirection
 #: view/admin/group_list.php:16
 #: view/admin/log.php:38
 msgid "Module"
-msgstr "Module"
+msgstr "Modul"
 
+#@ redirection
 #: view/admin/group_list.php:21
+#: view/admin/item_list.php:29
 #: view/admin/log.php:16
 #: view/admin/log.php:23
-#: view/admin/item_list.php:29
 msgid "Search"
-msgstr "Zoeken"
+msgstr "Hledat"
 
+#@ redirection
 #: view/admin/group_list.php:26
 msgid "go"
-msgstr "ga"
+msgstr "go"
 
+#@ redirection
 #: view/admin/group_list.php:36
 #: view/admin/item_list.php:42
 #: view/admin/module_list.php:17
 msgid "Hits"
-msgstr "Hits"
+msgstr "Zobrazení"
 
+#@ redirection
+#: view/admin/group_edit.php:6
 #: view/admin/group_list.php:37
 #: view/admin/group_list.php:100
 #: view/admin/module_edit.php:18
 #: view/admin/module_list.php:42
-#: view/admin/group_edit.php:6
 msgid "Name"
-msgstr "Naam"
+msgstr "Jméno"
 
+#@ redirection
 #: view/admin/group_list.php:59
 #: view/admin/item_list.php:67
 msgid "Select All"
-msgstr "Alles selecteren"
+msgstr "Vybrat vše"
 
+#@ redirection
 #: view/admin/group_list.php:60
 #: view/admin/item_list.php:68
 msgid "Toggle"
-msgstr "Schakelen"
+msgstr "Povolit/Zakázat"
 
+#@ redirection
 #: view/admin/group_list.php:61
 #: view/admin/item_list.php:69
 msgid "Reset Hits"
-msgstr "Reset hits"
+msgstr "Vynulovat počet zobrazení"
 
+#@ redirection
+#@ default
 #: view/admin/group_list.php:62
-#: view/admin/log.php:30
 #: view/admin/item_list.php:70
+#: view/admin/log.php:30
 #: view/admin/options.php:120
 msgid "Delete"
-msgstr "Verwijderen"
+msgstr "Odstranit"
 
+#@ redirection
 #: view/admin/group_list.php:64
 #: view/admin/item_list.php:72
 msgid "Move To"
-msgstr "Verplaatsen naar"
+msgstr "Přesunout do"
 
+#@ redirection
 #: view/admin/group_list.php:69
 #: view/admin/item_list.php:34
 #: view/admin/item_list.php:77
 msgid "Go"
-msgstr "Ga"
+msgstr "Go"
 
+#@ redirection
 #: view/admin/group_list.php:75
 #: view/admin/item_list.php:83
 msgid "re-order"
-msgstr "Volgorde aanpassen"
+msgstr "přeuspořádat"
 
+#@ redirection
 #: view/admin/group_list.php:76
 #: view/admin/item_list.php:84
 msgid "save order"
-msgstr "volgorde opslaan"
+msgstr "uložit pořadí"
 
+#@ redirection
 #: view/admin/group_list.php:89
 msgid "You have no groups in this module."
-msgstr "Je hebt geen groepen in deze module."
+msgstr "Tento modul neobsahuje žádné skupiny."
 
+#@ redirection
 #: view/admin/group_list.php:94
 msgid "Add Group"
-msgstr "Groep toevoegen"
+msgstr "Přidat skupinu"
 
+#@ redirection
 #: view/admin/group_list.php:105
 msgid "Add"
-msgstr "Toevoegen"
+msgstr "Přidat"
 
-#: view/admin/group_list.php:117
-#: view/admin/log.php:112
-#: view/admin/item_list.php:112
+#@ redirection
 #: redirection.php:116
+#: view/admin/group_list.php:117
+#: view/admin/item_list.php:112
+#: view/admin/log.php:112
 msgid "No items have been selected"
-msgstr "Er zijn geen items geselecteerd."
+msgstr "Nebyly vybrány žádné položky"
 
-#: view/admin/group_list.php:118
-#: view/admin/log.php:113
-#: view/admin/item_list.php:113
+#@ redirection
 #: redirection.php:115
+#: view/admin/group_list.php:118
+#: view/admin/item_list.php:113
+#: view/admin/log.php:113
 msgid "Are you sure?"
-msgstr "Weet je het zeker?"
+msgstr "Opravdu?"
 
+#@ redirection
 #: view/admin/submenu.php:6
 msgid "Redirects"
-msgstr "Redirects"
+msgstr "Přesměrování"
 
-#: view/admin/submenu.php:11
+#@ redirection
 #: view/admin/module_list.php:15
+#: view/admin/submenu.php:11
 msgid "Groups"
-msgstr "Groepen"
+msgstr "Skupiny"
 
-#: view/admin/submenu.php:16
+#@ redirection
 #: view/admin/module_list.php:6
+#: view/admin/submenu.php:16
 msgid "Modules"
-msgstr "Modules"
+msgstr "Moduly"
 
+#@ redirection
 #: view/admin/submenu.php:21
 msgid "Log"
 msgstr "Log"
 
-#: view/admin/submenu.php:26
+#@ redirection
 #: view/admin/options.php:6
+#: view/admin/submenu.php:26
 msgid "Options"
-msgstr "Instellingen"
+msgstr "Nastavení"
 
+#@ redirection
 #: view/admin/submenu.php:31
 msgid "Support"
-msgstr "Ondersteuning"
+msgstr "Podpora"
 
+#@ redirection
 #: view/admin/module_item.php:23
 msgid "View as"
-msgstr "Bekijk als"
+msgstr "Zobrazit jako"
 
+#@ redirection
 #: view/admin/module_item.php:25
 msgid "CSV"
 msgstr "CSV"
 
+#@ redirection
 #: view/admin/module_item.php:26
 msgid "XML"
 msgstr "XML"
 
-#: view/admin/module_item.php:27
-#: models/module.php:160
+#@ redirection
 #: models/database.php:95
+#: models/module.php:160
+#: view/admin/module_item.php:27
 msgid "Apache"
 msgstr "Apache"
 
+#@ redirection
 #: view/admin/module_item.php:28
 msgid "RSS"
 msgstr "RSS"
 
+#@ redirection
 #: view/admin/module_item.php:41
 msgid "edit"
-msgstr "bewerk"
+msgstr "upravit"
 
+#@ redirection
 #: view/admin/module_item.php:43
 msgid "delete"
-msgstr "verwijder"
+msgstr "odstranit"
 
+#@ redirection
 #: view/admin/module_item.php:45
 msgid "reset"
 msgstr "reset"
 
+#@ redirection
 #: view/admin/log.php:6
 msgid "Redirection Log"
-msgstr "Redirection-log"
+msgstr "Logy přesměrování"
 
+#@ default
 #: view/admin/log.php:29
 msgid "Bulk Actions"
-msgstr "Bulkacties"
+msgstr "Hromadné akce"
 
+#@ default
 #: view/admin/log.php:33
 msgid "Apply"
-msgstr "Toepassen"
+msgstr "Použít"
 
-#: view/admin/log.php:43
-#: view/admin/item_list.php:24
+#@ redirection
 #: view/admin/add.php:36
+#: view/admin/item_list.php:24
+#: view/admin/log.php:43
 msgid "Group"
-msgstr "Groep"
+msgstr "Skupina"
 
+#@ default
 #: view/admin/log.php:49
 msgid "Filter"
-msgstr "Filter"
+msgstr "Filtr"
 
+#@ redirection
 #: view/admin/log.php:67
 msgid "Date"
 msgstr "Datum"
 
+#@ redirection
+#: view/admin/add.php:12
+#: view/admin/item_edit.php:15
 #: view/admin/log.php:68
 #: view/admin/log_item_details.php:4
-#: view/admin/item_edit.php:15
-#: view/admin/add.php:12
 msgid "Source URL"
-msgstr "Bron-URL"
+msgstr "Zdrojová URL"
 
-#: view/admin/log.php:69
+#@ redirection
 #: matches/referrer.php:40
+#: view/admin/log.php:69
 msgid "Referrer"
 msgstr "Referrer"
 
+#@ redirection
 #: view/admin/log.php:70
 msgid "IP"
-msgstr "IP-adres"
+msgstr "IP"
 
+#@ redirection
 #: view/admin/log.php:85
 msgid "There are no logs to display!"
-msgstr "Er zijn geen logs om weer te geven!"
+msgstr "Není k dispozici žádný log pro zobrazení!"
 
+#@ redirection
 #: view/admin/log.php:94
 msgid "Process Current Logs"
-msgstr "Huidige logs verwerken"
+msgstr "Operace s aktuálními logy"
 
+#@ redirection
 #: view/admin/log.php:95
 msgid "These actions will affect all currently available logs (i.e. your search phrase will restrict the log items)."
-msgstr "Deze acties zijn op alle momenteel beschikbare logs van toepassing. (Dus je zoektermen beperken de log-items.)"
+msgstr "Tyto akce budou mít vliv na všechny logy, které jsou k dispozici (pomocí vyhledávání můžete omezit rozsah zpracovaných logů)."
 
+#@ redirection
 #: view/admin/log.php:100
 msgid "Delete Logs"
-msgstr "Verwijder logs"
+msgstr "Smazat logy"
 
+#@ redirection
 #: view/admin/item_list.php:7
 msgid "Redirections for group"
-msgstr "Redirects voor groep"
+msgstr "Přesměrování pro skupinu"
 
+#@ redirection
 #: view/admin/item_list.php:41
 msgid "Last Access"
-msgstr "Laatste hit"
+msgstr "Poslední přístup"
 
+#@ redirection
 #: view/admin/item_list.php:43
 #: view/admin/module_list.php:46
 msgid "Type"
-msgstr "Type"
+msgstr "Typ"
 
+#@ redirection
 #: view/admin/item_list.php:44
 msgid "URL"
 msgstr "URL"
 
+#@ redirection
 #: view/admin/item_list.php:44
 msgid "Position"
-msgstr "Positie"
+msgstr "Pozice"
 
+#@ redirection
 #: view/admin/item_list.php:88
 msgid "You have no redirections."
-msgstr "Je hebt geen redirects."
+msgstr "Neexistuje žádné přesměrování."
 
+#@ redirection
 #: view/admin/log_item_details.php:9
 msgid "Redirect to"
-msgstr "Redirect naar"
+msgstr "Přesměrovat na"
 
+#@ redirection
 #: view/admin/log_item_details.php:15
 msgid "Redirected by"
-msgstr "Ge-redirect door"
+msgstr "Přesměrováno dle"
 
+#@ redirection
 #: view/admin/log_item_details.php:16
 msgid "for"
-msgstr "voor"
+msgstr "pro"
 
-#: view/admin/log_item_details.php:20
+#@ redirection
 #: matches/user_agent.php:43
+#: view/admin/log_item_details.php:20
 msgid "User Agent"
-msgstr "User agent"
+msgstr "User Agent"
 
-#: view/admin/item.php:27
+#@ redirection
 #: view/admin/group_item.php:23
+#: view/admin/item.php:27
 msgid "disabled"
-msgstr "uitgeschakeld"
+msgstr "zakázáno"
 
+#@ redirection
 #: view/admin/item_edit.php:3
+#, php-format
 msgid "%s by matching %s"
-msgstr "%s door te vergelijken met %s"
+msgstr "%s odpovídá %s"
 
+#@ redirection
 #: view/admin/item_edit.php:7
 msgid "Title"
-msgstr "Titel"
+msgstr "Nadpis"
 
+#@ redirection
 #: view/admin/item_edit.php:10
 msgid "optional"
-msgstr "optioneel"
+msgstr "volitelný"
 
-#: view/admin/item_edit.php:18
+#@ redirection
 #: matches/referrer.php:43
+#: view/admin/item_edit.php:18
 msgid "Regex"
 msgstr "Regex"
 
+#@ redirection
+#: view/admin/group_edit.php:20
 #: view/admin/item_edit.php:27
 #: view/admin/module_edit.php:27
-#: view/admin/group_edit.php:20
 msgid "Save"
-msgstr "Opslaan"
+msgstr "Uložit"
 
+#@ redirection
+#: view/admin/group_edit.php:21
 #: view/admin/item_edit.php:28
 #: view/admin/module_edit.php:28
-#: view/admin/group_edit.php:21
 msgid "Cancel"
-msgstr "Annuleren"
+msgstr "Zrušit"
 
+#@ redirection
 #: view/admin/add.php:3
 msgid "Add new redirection"
-msgstr "Nieuwe redirect toevoegen"
+msgstr "Přidat nové přesměrování"
 
+#@ redirection
 #: view/admin/add.php:6
 msgid "Your redirection has been added."
-msgstr "Je redirect is toegevoegd."
+msgstr "Přesměrování bylo přidáno."
 
+#@ redirection
 #: view/admin/add.php:16
 msgid "Match"
-msgstr "Vergelijk met"
+msgstr "Shoda"
 
+#@ redirection
 #: view/admin/add.php:22
 msgid "Action"
-msgstr "Actie"
+msgstr "Akce"
 
+#@ redirection
 #: view/admin/add.php:27
 msgid "Regular expression"
-msgstr "Reguliere expressie"
+msgstr "Regulární výraz"
 
-#: view/admin/add.php:31
+#@ redirection
 #: matches/url.php:32
+#: view/admin/add.php:31
 msgid "Target URL"
-msgstr "Doel-URL"
+msgstr "Cílová URL"
 
+#@ redirection
 #: view/admin/add.php:43
 msgid "Add Redirection"
-msgstr "Voeg redirect toe"
+msgstr "Přidat přesměrování"
 
+#@ redirection
 #: view/admin/group_item.php:3
 msgid "edit group"
-msgstr "bewerk groep"
+msgstr "upravit skupinu"
 
+#@ redirection
 #: view/admin/module_list.php:14
 msgid "Details"
-msgstr "Details"
+msgstr "Podrobnosti"
 
+#@ redirection
 #: view/admin/module_list.php:16
 msgid "Items"
-msgstr "Items"
+msgstr "Položky"
 
+#@ redirection
 #: view/admin/module_list.php:18
 msgid "Operations"
-msgstr "Acties"
+msgstr "Operace"
 
+#@ redirection
 #: view/admin/module_list.php:27
 msgid "Note: Hits are dependant on log entries"
-msgstr "NB: hits zijn afhankelijk van log-regels."
+msgstr "Poznámka: Počet zobrazení je vypočítán ze záznamů v logu"
 
+#@ redirection
 #: view/admin/module_list.php:29
 msgid "You have no modules defined yet"
-msgstr "Je hebt nog geen modules gedefinieerd."
+msgstr "Žádné moduly nebyly dosud definovány"
 
+#@ redirection
 #: view/admin/module_list.php:34
 msgid "Add Module"
-msgstr "Voeg module toe"
+msgstr "Přidat modul"
 
+#@ redirection
 #: view/admin/module_list.php:35
 msgid "A module is a controlling element that determines how redirections are handled.  Elements in a WordPress module are handled by WordPress, elements in an Apache module are handled by <code>.htaccess</code>, and elements in a 404 module affect how 404 errors are logged."
-msgstr "Een module bepaalt hoe redirects worden afgehandeld. Elementen in een WordPress-module worden afgehandeld door WordPress, elementen in een Apache-module worden afgehandeld door een <code>.htaccess</code>-bestand en elementen in een 404-module bepalen hoe 404-errors worden gelogd."
+msgstr "Modul je kontrolní prvek, který určuje, jakým způsobem jsou zpracovávány přesměrování. Záznamy v modulu WordPress jsou zpracovány WordPressem, záznamy v modulu Apache zpracovává <code>.htaccess</code>, a záznamy v modulu 404 ovlivní, jak budou zalogovány chyby 404."
 
+#@ redirection
 #: view/admin/module_list.php:55
 msgid "Create"
-msgstr "Maak aan"
+msgstr "Vytvořit"
 
+#@ redirection
 #: view/admin/support.php:5
 msgid "Redirection Support"
-msgstr "Ondersteun Redirection"
+msgstr "Podpora pro Redirection"
 
+#@ redirection
 #: view/admin/support.php:9
 msgid "Redirection is free to use - life is wonderful and lovely!  However, it has required a great deal of time and effort to develop and if it has been useful you can help support this development by <strong>making a small donation</strong>."
-msgstr "Je mag Redirection gratis gebruiken - het leven is vurrukuluk! Desalniettemin heeft het veel tijd en moeite gekost om Redirection te ontwikkelen. Als je Redirection handig vind, kan je de ontwikkeling ondersteunen door een <strong>kleine donatie</strong> te doen."
+msgstr "Plugin Redirection je šířen zdarma - život je krásný, autor vás má rád! Nicméně, vývoj vyžaduje hodně času a úsilí... Pokud vám tento plugin připadá užitečný, neostýchejte se podpořit jeho vývoj <strong>drobným příspěvkem.</strong>"
 
+#@ redirection
 #: view/admin/support.php:10
 msgid "This will act as an incentive for me to carry on developing, providing countless hours of support, and including new features and suggestions. You get some useful software and I get to carry on making it.  Everybody wins."
-msgstr "Dit zal me stimuleren om verder te gaan met de ontwikkeling, ontelbare uren ondersteuning te verlenen en nieuwe functies en ideeën te maken. Jij krijgt handige software en ik kan doorgaan die te maken. Een win-win-situatie!"
+msgstr "Drobnou dotací nejen přispějete na další vývoj, ale dáte mi také najevo, že tento plugin má smysl a mám pokračovat v jeho vývoji, podpoře vás, uživatelů, a v přidávání dalších skvělých funkcí. Vy tak získáte užitečný software a já povzbuzení do další práce. A to za to stojí, nemyslíte?"
 
+#@ redirection
 #: view/admin/support.php:13
 msgid "If you are using this plugin in a commercial setup, or feel that it's been particularly useful, then you may want to consider a <strong>commercial donation</strong>."
-msgstr "Als je de Redirection-plugin gebruikt in een commerciële omgeving, of als je gewoon supertevreden bent, kan je overwegen een <strong>commerciële donatie</strong> te doen."
+msgstr "Používáte-li tento plugin ve firemní sféře, nebo máte pocit, že je extrémně užitečný, pak byste možná mohli zvážit <strong>výraznější dotaci za komerční využití.</strong>"
 
+#@ redirection
 #: view/admin/support.php:36
 msgid "Individual<br/>Donation"
-msgstr "Individuele<br/>donatie"
+msgstr "Individuální<br/>příspěvek"
 
+#@ redirection
 #: view/admin/support.php:56
 msgid "Commercial<br/>Donation"
-msgstr "Commerciële<br/>donatie"
+msgstr "Komerční<br/>příspěvek"
 
+#@ redirection
 #: view/admin/support.php:60
 msgid "Translations"
-msgstr "Vertalingen"
+msgstr "Překlady"
 
+#@ redirection
 #: view/admin/support.php:62
 msgid "If you're multi-lingual then you may want to consider donating a translation:"
-msgstr "Als je meertalig bent, kan je overwegen een vertaling te doneren:"
+msgstr "Pokud hovoříte více jazyky, můžete podpořit další vývoj pluginu jeho přeložením například do těchto jazyků:"
 
+#@ redirection
 #: view/admin/support.php:70
 msgid "All translators will have a link to their website placed on the plugin homepage at <a href=\"http://urbangiraffe.com/plugins/redirection/\">UrbanGiraffe</a>, in addition to being an individual supporter."
-msgstr "Alle vertalers krijgen een link naar hun website op de plugin-homepage: <a href=\"http://urbangiraffe.com/plugins/redirection/\">UrbanGiraffe</a>. Daarnaast krijgen ze de status van individuele supporter."
+msgstr "Všichni překladatelé získají odkaz na své webové stránky na domovské stránce pluginu <a href=\"http://urbangiraffe.com/plugins/redirection/\">UrbanGiraffe</a>. A pochopitelně dobrý pocit z přispění komunitě."
 
+#@ redirection
 #: view/admin/support.php:71
 msgid "Full details of producing a translation can be found in this <a href=\"http://urbangiraffe.com/articles/translating-wordpress-themes-and-plugins/\">guide to translating WordPress plugins</a>."
-msgstr "Uitgebreide uitleg over het maken van een vertaling kan je vinden in de Engelstalige <a href=\"http://urbangiraffe.com/articles/translating-wordpress-themes-and-plugins/\">guide to translating WordPress plugins</a>."
+msgstr "Kompletní postup pro překládání je k dispozici v podobě <a href=\"http://urbangiraffe.com/articles/translating-wordpress-themes-and-plugins/\">příručky pro překlad WordPress pluginů</a> ."
 
+#@ redirection
 #: view/admin/options.php:15
 msgid "Auto-generate URL"
-msgstr "URL automatisch genereren"
+msgstr "Automatické generování URL"
 
+#@ redirection
 #: view/admin/options.php:19
 msgid "This will be used to auto-generate a URL if no URL is given.  You can use the special tags $dec$ or $hex$ to have a unique ID inserted (either decimal or hex)"
-msgstr "Dit wordt gebruikt om automatisch een URL te genereren als er geen is opgegeven. Je kan de speciale tags $dec$ en $hex$ gebruiken om een unieke ID te laten invoegen, respectievelijk in decimale of hexadecimale notatie."
+msgstr "Tato volba je použita pro automatické generování URL v případě, kdy není URL specifikována. Je možné použít speciální tagy $dec$ nebo $hex$ pro vložení unikátního ID do URL (dec - dekadický, hex - šestnáctkový)"
 
+#@ redirection
 #: view/admin/options.php:24
 msgid "IP Lookup Service"
-msgstr "IP-zoek-service"
+msgstr "Služba pro vyhledávání dle IP"
 
+#@ redirection
 #: view/admin/options.php:30
 msgid "Plugin Support"
-msgstr "Ondersteuning van de plugin"
+msgstr "Podpora pluginu"
 
+#@ redirection
 #: view/admin/options.php:33
 msgid "I'm a nice person and I have helped support the author of this plugin"
-msgstr "Ik ben een aardig persoon en ik heb de auteur van deze plugin geholpen met ondersteuning."
+msgstr "Jsem milý člověk a podpořil jsem vývoj tohoto pluginu"
 
+#@ redirection
 #: view/admin/options.php:37
 msgid "Logging"
-msgstr "Logging"
+msgstr "Logování"
 
+#@ redirection
 #: view/admin/options.php:40
 msgid "log redirected requests"
-msgstr "Houd ge-redirecte requests bij in een log."
+msgstr "logovat žádosti o přesměrování"
 
+#@ redirection
 #: view/admin/options.php:42
 msgid "log 404 Not Found requests"
-msgstr "Houd 404-fouten bij in een log."
+msgstr "logovat požadavky 404 - Nenalezeno"
 
+#@ redirection
 #: view/admin/options.php:43
 msgid "Uncheck one or both of these to turn off logging and reduce database load if your redirected URLs are hit very frequently, and/or your site is very busy and pages are often not found."
-msgstr "Zet een of beide vinkjes uit om logging uit te schakelen. Daardoor kan je de belasting van de database verminderen, wat handig kan zijn als je veel redirects hebt of als je site heel drukbezocht is."
+msgstr "Zakázáním jedné nebo obou těchto voleb docílíte nižšího zatížení databáze a vyššího výkonu webu. To se hodí zejména u webů, které mají omezené systémové zdroje, velký počet přesměrování a chybných URL či v případech, kdy nepotřebujete záznamy o proběhlých přesměrováních."
 
+#@ redirection
 #: view/admin/options.php:47
 msgid "Expire Logs"
-msgstr "Verwijder logs na"
+msgstr "Expirace logů"
 
+#@ redirection
 #: view/admin/options.php:50
 msgid "days (enter 0 for no expiry)"
-msgstr "dagen (vul 0 in als je wil dat de logs nooit verwijderd worden)"
+msgstr "dnů (při zadání 0 neexpirují logy nikdy)"
 
+#@ redirection
 #: view/admin/options.php:54
 msgid "RSS Token"
-msgstr "RSS-token"
+msgstr "RSS Token"
 
+#@ redirection
 #: view/admin/options.php:57
 msgid "A unique token allowing feed readers access to Redirection RSS (leave blank to auto-generate)"
-msgstr "Een unieke token dat feed-readers toegang geeft tot Redirection RSS. (Wordt automatisch gegenereerd als je het veld leeglaat.)"
+msgstr "Unikátní token umožňující přístup RSS čtečkám k Redirection RSS (ponechte prázdné pro automatické generování)"
 
+#@ redirection
 #: view/admin/options.php:62
 msgid "URL Monitoring"
-msgstr "URL-controle"
+msgstr "URL Monitoring"
 
+#@ redirection
 #: view/admin/options.php:63
 msgid "You can have Redirection detect changes in URLs and have an automatic redirection created in a specific group."
-msgstr "Je kan de Redirection-plugin URL-wijzigingen laten detecteren en automatisch redirects laten aanmaken in een specifieke groep."
+msgstr "Plugin Redirection může detekovat změny v URL a na jejich základě vytvářet automatická přesměrování pro konkrétní skupiny."
 
+#@ redirection
 #: view/admin/options.php:67
 msgid "Post &amp; Page URLs"
-msgstr "Berichten- &amp; pagina-URL's"
+msgstr "URL Příspěvků &amp; Stránek"
 
+#@ redirection
 #: view/admin/options.php:70
 #: view/admin/options.php:82
 msgid "Don't monitor"
-msgstr "Niet controleren"
+msgstr "Nesledovat"
 
+#@ redirection
 #: view/admin/options.php:74
 msgid "Monitor new posts"
-msgstr "Controleer op nieuwe berichten"
+msgstr "Sledovat nové příspěvky"
 
+#@ redirection
 #: view/admin/options.php:79
 msgid "Category URLs"
-msgstr "Categorie-URL's"
+msgstr "URL kategorií"
 
+#@ redirection
 #: view/admin/options.php:89
 msgid "Update"
-msgstr "Bijwerken"
+msgstr "Aktualizovat"
 
+#@ redirection
 #: view/admin/options.php:95
 msgid "Import"
-msgstr "Importeren"
+msgstr "Import"
 
+#@ redirection
 #: view/admin/options.php:97
 msgid "Here you can import redirections from an existing .htaccess file, a CSV file, or a Redirection XML."
-msgstr "Hier kan je redirects importeren uit een bestaand .htaccess-bestand, een CSV-bestand of een Redirection XML-bestand."
+msgstr "Složí k importu přesměrování z existujícího souboru .htaccess, CSV souboru nebo z XML exportu pluginu Redirection."
 
+#@ redirection
 #: view/admin/options.php:104
 msgid "Import into"
-msgstr "Importeer naar"
+msgstr "Importovat do"
 
+#@ redirection
 #: view/admin/options.php:107
 msgid "Upload"
-msgstr "Uploaden"
+msgstr "Nahrát"
 
+#@ redirection
 #: view/admin/options.php:110
 msgid "Note that the group is ignored when uploading an XML file."
-msgstr "Merk op dat de groep wordt genegeerd als je een XML-bestand upload."
+msgstr "Poznámka: Nastavení Skupiny je při nahrání XML souboru ignorováno."
 
+#@ redirection
 #: view/admin/options.php:114
 msgid "Delete Redirection"
-msgstr "Verwijder Redirection"
+msgstr "Odstranit plugin Redirection"
 
+#@ redirection
 #: view/admin/options.php:115
 msgid "Selecting this option will delete all redirections, all logs, and any options associated with the Redirection plugin.  Make sure this is what you want to do."
-msgstr "Deze actie zal alle redirects, alle logs en alle instellingen van de Redirection-plugin verwijderen. Bezint eer ge begint!"
+msgstr "Výběrem této možnosti dojde k odstranění všech přesměrování, logů a všech nastavení, spojených s pluginem Redirection. Tyto změny není možné vzít zpět, ujistěte se, že víte, co děláte."
 
+#@ redirection
 #: view/admin/group_edit.php:10
 msgid "Tracked"
-msgstr "Tellen"
+msgstr "Sledování"
 
+#@ redirection
 #: view/admin/group_edit.php:11
 msgid "Whether to track 'hits' to items"
-msgstr "Tel het aantal 'hits' per item"
+msgstr "Sledovat 'hits' (použití) položek"
 
+#@ redirection
 #: view/admin/group_edit.php:14
 msgid "Enabled"
-msgstr "Ingeschakeld"
+msgstr "Povoleno"
 
+#@ redirection
 #: view/admin/group_edit.php:15
 msgid "Disabling a group will disable all items contained within it"
-msgstr "Als je de groep uitschakelt, worden ook alle items in de groep uitgeschakeld."
+msgstr "Zakázání skupiny současně zakáže všechny její položky"
 
+#@ redirection
 #: modules/404.php:37
 msgid "Log 404s"
-msgstr "Log 404-fouten"
+msgstr "Logovat chyby 404"
 
+#@ redirection
 #: modules/404.php:46
 #: modules/wordpress.php:121
 msgid "<strong>Disabled: You must enable <a href=\"options-permalink.php\">permalinks</a> before using this</strong>"
-msgstr "<strong>Uitgeschakeld: je moet <a href=\"options-permalink.php\">permalinks</a> aanzetten voordat je dit kunt gebruiken.</strong>"
+msgstr "<strong>Plugin neaktivní: nejprve musíte povolit <a href=\\\"options-permalink.php\\\">trvalé odkazy</a></strong>"
 
+#@ redirection
 #: modules/404.php:57
 msgid "<small>No options have been set</small>"
-msgstr "<small>Er zijn geen instellingen gemaakt.</small>"
+msgstr "<small>Nic nebylo nastaveno</small>"
 
+#@ redirection
 #: modules/apache.php:77
 msgid "Location"
-msgstr "Locatie"
+msgstr "Umístění"
 
+#@ redirection
 #: modules/apache.php:82
+#, php-format
 msgid "WordPress is installed in: <code>%s</code>"
-msgstr "WordPress is geïnstalleerd in: <code>%s</code>"
+msgstr "WordPress je nainstalován v: <code>%s</code>"
 
+#@ redirection
 #: modules/apache.php:87
 msgid "Canonical"
-msgstr "Kanoniek"
+msgstr "Kanonizace"
 
+#@ redirection
 #: modules/apache.php:90
 #: modules/apache.php:96
 msgid "Leave as is"
-msgstr "Laten zoals het is"
+msgstr "Beze změny"
 
+#@ redirection
 #: modules/apache.php:90
+#, php-format
 msgid "Strip WWW (%s)"
-msgstr "WWW verwijderen (%s)"
+msgstr "Odebrat WWW (%s)"
 
+#@ redirection
 #: modules/apache.php:90
+#, php-format
 msgid "Force WWW (www.%s)"
-msgstr "WWW forceren (www.%s)"
+msgstr "Vždy přidat WWW (www.%s)"
 
+#@ redirection
 #: modules/apache.php:94
 msgid "Strip Index"
-msgstr "Index verwijderen"
+msgstr "Odebrat Index"
 
+#@ redirection
 #: modules/apache.php:96
 msgid "Strip index files (html,php)"
-msgstr "Index-bestanden verwijderen (html, php)"
+msgstr "Odebrat soubory index (html,php)"
 
+#@ redirection
 #: modules/apache.php:101
 msgid "Memory Limit"
-msgstr "Geheugenlimiet"
+msgstr "Memory Limit"
 
+#@ redirection
 #: modules/apache.php:104
 #: modules/apache.php:109
 msgid "Server default"
-msgstr "Standaard van de server"
+msgstr "Server default"
 
+#@ redirection
 #: modules/apache.php:107
 msgid "Error Level"
-msgstr "Foutniveau"
+msgstr "Error Level"
 
+#@ redirection
 #: modules/apache.php:109
 msgid "No errors"
-msgstr "Geen fouten"
+msgstr "No errors"
 
+#@ redirection
 #: modules/apache.php:109
 msgid "Show errors"
-msgstr "Toon fouten"
+msgstr "Show errors"
 
+#@ redirection
 #: modules/apache.php:114
 msgid "Ban IPs"
-msgstr "Blokkeer IP's"
+msgstr "Zakázané IP"
 
+#@ redirection
 #: modules/apache.php:120
 msgid "Allow IPs"
-msgstr "Sta IP's toe"
+msgstr "Povolené IP"
 
+#@ redirection
 #: modules/apache.php:126
 msgid "Raw .htaccess"
-msgstr "Ruwe .htaccess"
+msgstr "Raw .htaccess"
 
+#@ redirection
 #: modules/apache.php:132
 msgid "Site URL"
-msgstr "Site-URL"
+msgstr "URL webu"
 
+#@ redirection
 #: modules/apache.php:135
 msgid "Advanced: For management of external sites"
-msgstr "Geavanceerd: voor het beheren van externe sites"
+msgstr "Pokročilé: Pro správu externích webů"
 
+#@ redirection
 #: modules/apache.php:150
 msgid "<strong>Location is invalid - check that path exists</strong>"
-msgstr "<strong>Ongeldige locatie - controleer of het pad bestaat.</strong>"
+msgstr "<strong>Umístění je chybné - zkontrolujte zadanou cestu</strong>"
 
+#@ redirection
 #: modules/apache.php:156
 msgid "<strong>Could not write to configured <code>.htaccess</code> file - check file permissions</strong>"
-msgstr "<strong>Geen schrijf-toegang tot het ingestelde <code>.htaccess</code>-bestand. Controleer de bestandsrechten.</strong>"
+msgstr "<strong>Nelze zapisovat do <code>.htaccess</code> souboru - zkontrolujte přístupová oprávnění</strong>"
 
+#@ redirection
 #: modules/apache.php:163
 msgid "<strong>Disabled: enter the location of an <code>.htaccess</code> file for this to be valid</strong>"
-msgstr "<strong>Uitgeschakeld: vul de locatie van een <code>.htaccess</code>-bestand in om dit geldig te maken.</strong>"
+msgstr "<strong>Zakázáno: Je potřeba zadat správné umístění souboru <code>.htaccess</code></strong>"
 
+#@ redirection
 #: modules/apache.php:168
 msgid "strip WWW"
-msgstr "verwijder WWW"
+msgstr "odstranit WWW"
 
+#@ redirection
 #: modules/apache.php:168
 msgid "force WWW"
-msgstr "forceer WWW"
+msgstr "vždy použít WWW"
 
+#@ redirection
 #: modules/apache.php:171
 msgid "strip index"
-msgstr "verwijder index"
+msgstr "odstranit index"
 
+#@ redirection
 #: modules/apache.php:174
+#, php-format
 msgid "memory limit at %dMB"
-msgstr "geheugenlimit op %dMB"
+msgstr "memory limit - %dMB"
 
+#@ redirection
 #: modules/apache.php:177
 msgid "no errors"
-msgstr "geen fouten"
+msgstr "nezobrazovat chyby"
 
+#@ redirection
 #: modules/apache.php:177
 msgid "show errors"
-msgstr "toon fouten"
+msgstr "zobrazovat chyby"
 
+#@ redirection
 #: modules/apache.php:180
 msgid "IPs are banned"
-msgstr "IP's zijn geblokkeerd"
+msgstr "IP adresy jsou zakázány"
 
+#@ redirection
 #: modules/apache.php:183
 msgid "IPs are allowed"
-msgstr "IP's zijn toegestaan"
+msgstr "IP adresy jsou povoleny"
 
+#@ redirection
 #: models/redirect.php:386
 msgid "Redirect to URL"
-msgstr "Redirect naar URL"
+msgstr "Přesměrovat na URL"
 
+#@ redirection
 #: models/redirect.php:387
 msgid "Redirect to random post"
-msgstr "Redirect naar willekeurig bericht"
+msgstr "Přesměrovat na náhodný příspěvek"
 
+#@ redirection
 #: models/redirect.php:388
 msgid "Pass-through"
-msgstr "Doorlaten"
+msgstr "Pass-through"
 
+#@ redirection
 #: models/redirect.php:389
 msgid "Error (404)"
-msgstr "Fout (404)"
+msgstr "Chyba (404)"
 
+#@ redirection
 #: models/redirect.php:390
 msgid "Do nothing"
-msgstr "Doe niks"
+msgstr "Nedělat nic"
 
-#: models/module.php:161
+#@ redirection
 #: models/database.php:94
+#: models/module.php:161
 msgid "WordPress"
 msgstr "WordPress"
 
+#@ redirection
 #: models/module.php:162
 msgid "404 Errors"
-msgstr "404-fouten"
+msgstr "chyby 404"
 
+#@ redirection
 #: models/module.php:187
 msgid "Strip WWW"
-msgstr "Verwijder WWW"
+msgstr "Odebrat WWW"
 
+#@ redirection
 #: models/module.php:187
 msgid "Force WWW"
-msgstr "Forceer WWW"
+msgstr "Vždy použít WWW"
 
+#@ redirection
 #: models/module.php:192
 msgid "Strip index.php"
-msgstr "Verwijder index.php"
+msgstr "Odebrat index.php"
 
+#@ redirection
 #: models/database.php:96
 msgid "404"
 msgstr "404"
 
+#@ default
 #: models/database.php:101
 msgid "Redirections"
-msgstr "Redirects"
+msgstr "Redirections"
 
+#@ default
 #: models/database.php:102
 msgid "Modified Posts"
-msgstr "Gewijzigde berichten"
+msgstr "Upravené příspěvky"
 
+#@ redirection
 #: models/pager.php:404
 msgid "Previous"
-msgstr "Vorige"
+msgstr "Předchozí"
 
+#@ redirection
 #: models/pager.php:405
 msgid "Next"
-msgstr "Volgende"
+msgstr "Další"
 
+#@ redirection
 #: models/pager.php:463
+#, php-format
 msgid "%d per-page"
-msgstr "%d per pagina"
+msgstr "%d na stránku"
 
+#@ default
 #: models/pager.php:472
+#, php-format
 msgid "Displaying %s&#8211;%s of %s"
-msgstr "Toont %s&#8211;%s van %s"
+msgstr "Zobrazuje se %s&#8211;%s z %s"
 
+#@ redirection
 #: models/group.php:194
 msgid "Yes"
-msgstr "Ja"
+msgstr "Ano"
 
+#@ redirection
 #: models/group.php:195
 msgid "No"
-msgstr "Nee"
+msgstr "Ne"
 
+#@ redirection
 #: ajax.php:370
 msgid "Sorry, but your redirection was not created"
-msgstr "Excuses, er is geen redirect aangemaakt."
+msgstr "Přesměrování nebylo vytvořeno"
 
+#@ redirection
 #: redirection.php:94
 msgid "Settings"
-msgstr "Instellingen"
+msgstr "Nastavení"
 
+#@ redirection
 #: redirection.php:112
 msgid "Please wait..."
-msgstr "Even wachten alsjeblieft..."
+msgstr "Čekejte prosím ..."
 
-#. #-#-#-#-#  plugin.pot (Redirection 2.2.5)  #-#-#-#-#
-#. Plugin Name of the plugin/theme
+#@ redirection
 #: redirection.php:121
 msgid "Redirection"
 msgstr "Redirection"
 
+#@ redirection
 #: redirection.php:159
 msgid "Your module was successfully created"
-msgstr "De module is aangemaakt."
+msgstr "Modul byl úspěšně vytvořen"
 
+#@ redirection
 #: redirection.php:163
 msgid "Your module was not created - did you provide a name?"
-msgstr "De module is niet aangemaakt - heb je wel een naam ingevuld?"
+msgstr "Modul nebyl vytvořen - nezapomněli jste zadat název?"
 
+#@ redirection
 #: redirection.php:228
 msgid "Your options were updated"
-msgstr "De instellingen zijn gewijzigd."
+msgstr "Nastavení aktualizováno"
 
+#@ redirection
 #: redirection.php:236
 msgid "Redirection data has been deleted and the plugin disabled"
-msgstr "Alle Redirection-data is verwijderd en de plugin is uigeschakeld."
+msgstr "Data pluginu Redirection byla odstraněna a plugin byl deaktivován"
 
+#@ redirection
 #: redirection.php:246
+#, php-format
 msgid "%d redirection was successfully imported"
 msgid_plural "%d redirections were successfully imported"
-msgstr[0] "Er is %d redirect geïmporteerd."
-msgstr[1] "Er zijn %d redirects geïmporteerd."
+msgstr[0] "%d přesměrování bylo úspěšně importováno"
+msgstr[1] "%d přesměrování byla úspěšně importována"
+msgstr[2] "%d přesměrování bylo úspěšně importováno"
 
+#@ redirection
 #: redirection.php:248
 msgid "No items were imported"
-msgstr "Er zijn geen items geïmporteerd."
+msgstr "Žádné položky nebyly importovány"
 
+#@ redirection
 #: redirection.php:266
 msgid "Your logs have been deleted"
-msgstr "De logs zijn verwijderd."
+msgstr "Vaše logy byly smazány"
 
+#@ redirection
 #: redirection.php:289
 msgid "Your group was added successfully"
-msgstr "De groep is toegevoegd."
+msgstr "Skupina byla úspěšně přidána"
 
+#@ redirection
 #: redirection.php:293
 msgid "Please specify a group name"
-msgstr "Geef de groep een naam."
+msgstr "Zadejte prosím název skupiny"
 
+#@ default
 #: redirection.php:330
 msgid "Redirection is available in"
-msgstr "Redirection is beschikbaar in het"
+msgstr "Redirection je k dispozici v"
 
+#@ redirection
 #: matches/url.php:25
 msgid "URL only"
-msgstr "Alleen URL"
+msgstr "pouze URL"
 
+#@ redirection
+#: matches/referrer.php:47
 #: matches/url.php:40
 #: matches/user_agent.php:55
-#: matches/referrer.php:47
 msgid "HTTP Code"
-msgstr "HTTP-code"
+msgstr "HTTP kód"
 
+#@ redirection
 #: matches/login.php:25
 msgid "URL and login status"
-msgstr "URL en loginstatus"
+msgstr "URL a přihlášení"
 
+#@ redirection
 #: matches/login.php:33
 msgid "The target URL will be chosen from one of the following URLs, depending if the user is logged in or out.  Leaving a URL blank means that the user is not redirected."
-msgstr "De doel-URL wordt gekozen uit de volgende URL's, afhankelijk van of de gebruiker wel of niet is ingelogd. Als je een URL leeglaat, wordt de gebruiker niet ge-redirect."
+msgstr "Cílová URL bude vybírána z následujících URL - v závislosti na tom, zda je uživatel přihlášen nebo ne. Prázdné pole pro URL znamená, že k přesměrování nedojde"
 
+#@ redirection
 #: matches/login.php:39
 #: matches/login.php:41
 msgid "Logged In"
-msgstr "Ingelogd"
+msgstr "Přihlášený"
 
+#@ redirection
 #: matches/login.php:51
 #: matches/login.php:53
 msgid "Logged Out"
-msgstr "Uitgelogd"
+msgstr "Odhlášený"
 
+#@ redirection
 #: matches/user_agent.php:27
 msgid "URL and user agent"
-msgstr "URL en user agent"
+msgstr "URL a user agent"
 
+#@ redirection
 #: matches/user_agent.php:32
 msgid "FeedBurner"
 msgstr "FeedBurner"
 
+#@ redirection
 #: matches/user_agent.php:33
 msgid "Internet Explorer"
 msgstr "Internet Explorer"
 
+#@ redirection
 #: matches/user_agent.php:34
 msgid "FireFox"
-msgstr "Firefox"
+msgstr "FireFox"
 
+#@ redirection
 #: matches/user_agent.php:35
 msgid "Opera"
 msgstr "Opera"
 
+#@ redirection
 #: matches/user_agent.php:36
 msgid "Safari"
 msgstr "Safari"
 
+#@ redirection
 #: matches/user_agent.php:37
 msgid "iPhone"
 msgstr "iPhone"
 
+#@ redirection
 #: matches/user_agent.php:38
 msgid "Nintendo Wii"
 msgstr "Nintendo Wii"
 
+#@ redirection
 #: matches/user_agent.php:66
 msgid "The visitor will be redirected from the source URL if the user agent matches.  You can specify a <em>matched</em> target URL as the address to send visitors if they do match, and <em>not matched</em> if they don't match.  Leaving a URL blank means that the visitor is not redirected. <strong>All matches are performed as regular expressions</strong>.\n"
-msgstr "De bezoeker zal worden doorgestuurd vanaf de bron-URL als de user agent overeenkomt. Je kan een <em>overeenkomende</em> URL opgeven als doel-URL voor als de user agent overeenkomt en een <em>niet overeenkomende</em> voor als de user agent anders is. Als je een URL leeg laat, wordt de gebruiker niet ge-redirect. <strong>Alle overeenkomsten worden met reguliere expressies gecontroleerd</strong>.\n"
+msgstr "Návštěvník bude přesměrován ze zdrojové URL, pokud odpovídá jeho identifikace User Agent. Lze nastavit cílové URL pro <em>shodu</em> parametru User Agent a další URL pro ostatní případy - <em>neshoduje se</em>. Ponechání prázdné URL znamená, že návštěvník nebude přesměrován. <strong>Poznámka: ve všech případech je použit regulární výraz - verze a revize nejsou brány v potaz.</strong>\n"
 
-#: matches/user_agent.php:73
-#: matches/user_agent.php:75
+#@ redirection
 #: matches/referrer.php:63
 #: matches/referrer.php:65
+#: matches/user_agent.php:73
+#: matches/user_agent.php:75
 msgid "Matched"
-msgstr "Overeenkomend"
+msgstr "Shoda"
 
-#: matches/user_agent.php:83
-#: matches/user_agent.php:85
+#@ redirection
 #: matches/referrer.php:73
 #: matches/referrer.php:75
+#: matches/user_agent.php:83
+#: matches/user_agent.php:85
 msgid "Not matched"
-msgstr "Niet overeenkomend"
+msgstr "Neshoduje se"
 
+#@ redirection
 #: matches/referrer.php:28
 msgid "URL and referrer"
-msgstr "URL en referrer"
+msgstr "URL a referrer"
 
+#@ redirection
 #: matches/referrer.php:57
 msgid "The visitor will be redirected from the source URL if the referrer matches.  You can specify a <em>matched</em> target URL as the address to send visitors if they do match, and <em>not matched</em> if they don't match.  Leaving a URL blank means that the visitor is not redirected."
-msgstr "De bezoeker wordt doorgestuurd van de bron-URL als de referrer overeenkomt. Je kan een <em>overeenkomende</em> URL opgeven als doel-URL voor als de referrer overeenkomt en een <em>niet overeenkomende</em> voor als de referrer anders is. Als je een URL leeg laat, wordt de gebruiker niet ge-redirect. "
-
-#. Plugin URI of the plugin/theme
-msgid "http://urbangiraffe.com/plugins/redirection/"
-msgstr "http://urbangiraffe.com/plugins/redirection/"
-
-#. Description of the plugin/theme
-msgid "Manage all your 301 redirects and monitor 404 errors"
-msgstr "Beheer al je 301-redirects en hou 404-fouten in de gaten."
-
-#. Author of the plugin/theme
-msgid "John Godley"
-msgstr "John Godley"
-
-#. Author URI of the plugin/theme
-msgid "http://urbangiraffe.com"
-msgstr "http://urbangiraffe.com"
+msgstr "Návštěvník bude přesměrován ze zdrojové URL, pokud přichází z konkrétní URL (referrer). Lze nastavit cílové URL pro <em>shodu</em> parametru referrer a další URL pro ostatní případy - <em>neshoduje se</em>. Ponechání prázdné URL znamená, že návštěvník nebude přesměrován."
 
