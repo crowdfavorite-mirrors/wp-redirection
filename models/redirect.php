@@ -301,8 +301,9 @@ class Red_Item {
 		$this->url = str_replace( ' ', '%20', $this->url );
 		$matches   = false;
 
-		if (! apply_filter('redirection_case_sensitive_url_match', true)) {
+		if (! apply_filters('redirection_case_sensitive_url_match', true)) {
 			$this->url = strtolower($this->url);
+			$url = strtolower($url);
 		}
 
 		// Check if we match the URL
