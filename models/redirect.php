@@ -301,6 +301,10 @@ class Red_Item {
 		$this->url = str_replace( ' ', '%20', $this->url );
 		$matches   = false;
 
+		if (! apply_filter('redirection_case_sensitive_url_match', true)) {
+			$this->url = strtolower($this->url);
+		}
+
 		// Check if we match the URL
 		if ( ( $this->regex == false && ( $this->url == $url || $this->url == rtrim( $url, '/' ) || $this->url == urldecode( $url ) ) ) ||( $this->regex == true && @preg_match( '@'.str_replace( '@', '\\@', $this->url).'@', $url, $matches) > 0) ||( $this->regex == true && @preg_match( '@'.str_replace( '@', '\\@', $this->url).'@', urldecode( $url ), $matches) > 0) ) {
 			// Check if our match wants this URL
