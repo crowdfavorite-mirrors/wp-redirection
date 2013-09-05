@@ -360,6 +360,14 @@ class RedirectionAjax extends Redirection_Plugin {
 
 	function red_redirect_add()	{
 		if ( check_ajax_referer( 'redirection-redirect_add' ) ) {
+
+		// CF // Added by Crowd Favorite: check for blank source or taget to prevent the home page from being whitescreened
+			if(trim($_POST['source']) == '' || trim($_POST['target']) == '') {
+				$this->render_error (__ ('Source URL and Target URL must both be filled out. Nothing was added.', 'redirection'));
+				die();
+			}
+		// END CF //
+
 			$item = Red_Item::create( $this->post );
 			if ( $item !== false ) {
 				echo '<li class="type_'.$item->action_type.'" id="item_'.$item->id.'">';
