@@ -1,59 +1,104 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Redirection\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/redirection\n"
-"POT-Creation-Date: 2012-05-07 13:59:00+00:00\n"
-"PO-Revision-Date: \n"
-"Last-Translator: Raffaello Tesi <info@raffaellotesi.com>\n"
-"Language-Team: Raffaello Tesi <info@raffaellotesi.com>\n"
-"Language: it_IT\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-22 17:38+0100\n"
+"PO-Revision-Date: 2013-12-05 08:40+0100\n"
+"Last-Translator: Mikael <mikael@husplushave.dk>\n"
+"Language-Team: Antphilosophy.com\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e\n"
 "X-Poedit-Basepath: .\n"
+"Language: da_DK\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.6.5\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-SearchPath-0: C:\\redirection\n"
-"X-Poedit-SearchPath-1: C:\\redirection\\2.3\n"
-"X-Poedit-SearchPath-2: C:\\redirection\\actions\n"
-"X-Poedit-SearchPath-3: C:\\redirection\\fileio\n"
-"X-Poedit-SearchPath-4: C:\\redirection\\images\n"
-"X-Poedit-SearchPath-5: C:\\redirection\\images\\modules\n"
-"X-Poedit-SearchPath-6: C:\\redirection\\js\n"
-"X-Poedit-SearchPath-7: C:\\redirection\\locale\n"
-"X-Poedit-SearchPath-8: C:\\redirection\\models\n"
-"X-Poedit-SearchPath-9: C:\\redirection\\modules\n"
-"X-Poedit-SearchPath-10: C:\\redirection\\matches\n"
-"X-Poedit-SearchPath-11: C:\\redirection\\view\n"
-"X-Poedit-SearchPath-12: C:\\redirection\\view\\admin\n"
+"X-Poedit-SearchPath-0: .\n"
 
 #: ajax.php:370
 msgid "Sorry, but your redirection was not created"
-msgstr "Mi dispiace, il reindirizzamento non è stato creato"
+msgstr "Beklager, men dit redirect blev ikke oprettet"
+
+#: redirection.php:94
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: redirection.php:112
+msgid "Please wait..."
+msgstr "Vent venligst.."
+
+#: redirection.php:115
+msgid "Are you sure?"
+msgstr "Er du sikker?"
+
+#: redirection.php:116
+msgid "No items have been selected"
+msgstr "Ingen elementer blev valgt"
+
+#: redirection.php:121
+msgid "Redirection"
+msgstr "Redirection"
+
+#: redirection.php:159
+msgid "Your module was successfully created"
+msgstr "Dit modul blev oprettet succesfuldt"
+
+#: redirection.php:163
+msgid "Your module was not created - did you provide a name?"
+msgstr "Dit modul blev ikke oprettet - tilføjede du et navn?"
+
+#: redirection.php:228
+msgid "Your options were updated"
+msgstr "Dine indstillinger blev opdateret"
+
+#: redirection.php:236
+msgid "Redirection data has been deleted and the plugin disabled"
+msgstr "Redirection data blev slettet og plugin'et deaktiveret"
+
+#: redirection.php:248
+msgid "No items were imported"
+msgstr "Ingen redirects blev importeret"
+
+#: redirection.php:266
+msgid "Your logs have been deleted"
+msgstr "Dine logs blev slettet"
+
+#: redirection.php:289
+msgid "Your group was added successfully"
+msgstr "Din gruppe blev tilføjet succesfuldt"
+
+#: redirection.php:293
+msgid "Please specify a group name"
+msgstr "Tilføj venligst et gruppenavn"
+
+#: redirection.php:330
+msgid "Redirection is available in"
+msgstr "Redirection er tilgængelig i"
 
 #: fileio/csv.php:21
+#, php-format
 msgid "module_%d.csv"
 msgstr "module_%d.csv"
 
 #: fileio/xml.php:32
+#, php-format
 msgid "module_%d.xml"
 msgstr "module_%d.xml"
 
 #: fileio/xml.php:105
+#, php-format
 msgid "%s imported on %s at %s"
-msgstr "%s importato in %s a %s"
+msgstr "%s importeret i %s af %s"
 
 #: fileio/xml.php:168
 msgid "XML importing is only available with PHP5 - you have PHP4."
-msgstr ""
-"L'importazione XML è disponibile solo con PHP5 - è stata invece identificata "
-"la versione PHP4"
+msgstr "XML importering er kun tilgængeligt i PHP5 - du har PHP4."
 
 #: matches/login.php:25
 msgid "URL and login status"
-msgstr "status URL e login"
+msgstr "URL og login status"
 
 #: matches/login.php:33
 msgid ""
@@ -61,33 +106,33 @@ msgid ""
 "the user is logged in or out.  Leaving a URL blank means that the user is "
 "not redirected."
 msgstr ""
-"L'URL di arrivo verrà scelta tra una delle seguenti, a seconda che l'utente "
-"abbia effettuato o meno il login. Lasciando l'URL vuota l'utente non verrà "
-"reindirizzato."
+"Target URL vil blive valgt fra en af de følgende URLs, afhængig af om "
+"brugeen er logget ind eller ej. Hvis du lader en URL være blank betyder det, "
+"at brugeren ikke er redirected."
 
 #: matches/login.php:39 matches/login.php:41
 msgid "Logged In"
-msgstr "Logged in"
+msgstr "Logget Ind"
 
 #: matches/login.php:51 matches/login.php:53
 msgid "Logged Out"
-msgstr "Logged out"
+msgstr "Logget Ud"
 
 #: matches/referrer.php:28
 msgid "URL and referrer"
-msgstr "URL e referrer"
+msgstr "URL og henvisning"
 
-#: matches/referrer.php:40 view/admin/log.php:69
+#: matches/referrer.php:40
 msgid "Referrer"
-msgstr "Referrer"
+msgstr "Henvisning"
 
-#: matches/referrer.php:43 view/admin/item_edit.php:18
+#: matches/referrer.php:43
 msgid "Regex"
 msgstr "Regex"
 
 #: matches/referrer.php:47 matches/url.php:40 matches/user_agent.php:57
 msgid "HTTP Code"
-msgstr "Codice HTTP"
+msgstr "HTTP Kode"
 
 #: matches/referrer.php:57
 msgid ""
@@ -96,33 +141,33 @@ msgid ""
 "visitors if they do match, and <em>not matched</em> if they don't match.  "
 "Leaving a URL blank means that the visitor is not redirected."
 msgstr ""
-"Il visitatore sarà reindirizzato dalla URL di partenza se il referrer "
-"corrisponde. È possibile specificare una URL di arrivo <em>matched</em>, "
-"ovvero da utilizzare come reindirizzamento se il referrer corrisponde, e "
-"<em>not matched</em> se non corrisponde. Lasciando l'URL vuota l'utente non "
-"viene reindirizzato."
+"Brugeren vil blive redirected fra kilde URL hvis henvisningen matcher. Du "
+"kan specificere en <em>matchende</em> target URL som den adresse hvor "
+"brugerne sendes hen, hvis de matcher og en <em>ikke matchende</em> hvis de "
+"ikke matcher. Lader du en URL være blank betyder det, at brugeren ikke "
+"redirectes."
 
 #: matches/referrer.php:63 matches/referrer.php:65 matches/user_agent.php:75
 #: matches/user_agent.php:77
 msgid "Matched"
-msgstr "Matched"
+msgstr "Matcher"
 
 #: matches/referrer.php:73 matches/referrer.php:75 matches/user_agent.php:85
 #: matches/user_agent.php:87
 msgid "Not matched"
-msgstr "Not matched"
+msgstr "Matcher ikke"
 
 #: matches/url.php:25
 msgid "URL only"
-msgstr "solo URL"
+msgstr "Kun URL"
 
-#: matches/url.php:32 view/admin/add.php:31
+#: matches/url.php:32
 msgid "Target URL"
-msgstr "URL di arrivo"
+msgstr "Target URL"
 
 #: matches/user_agent.php:27
 msgid "URL and user agent"
-msgstr "URL e user agent"
+msgstr "URL og user agent"
 
 #: matches/user_agent.php:32
 msgid "FeedBurner"
@@ -160,9 +205,9 @@ msgstr "Android"
 msgid "Nintendo Wii"
 msgstr "Nintendo Wii"
 
-#: matches/user_agent.php:45 view/admin/log_item_details.php:20
+#: matches/user_agent.php:45
 msgid "User Agent"
-msgstr "User agent"
+msgstr "User Agent"
 
 #: matches/user_agent.php:68
 msgid ""
@@ -172,17 +217,17 @@ msgid ""
 "match.  Leaving a URL blank means that the visitor is not redirected. "
 "<strong>All matches are performed as regular expressions</strong>.\n"
 msgstr ""
-"Il visitatore sarà reindirizzato dalla URL di partenza se l'user agent "
-"corrisponde. È possibile specificare una URL di arrivo <em>matched</em>, "
-"ovvero da utilizzare come reindirizzamento se l'user agent corrisponde, e "
-"<em>not matched</em> se non corrisponde. <strong>Tutte le corrispondenze "
-"sono create come espressioni regolari (regex)</strong>.\n"
+"Brugeren vil blive redirected fra kilde URL hvis user agent matcher. Du kan "
+"specificere en <em>matchende</em> target URL som den adresse hvor brugerne "
+"sendes hen, hvis de matcher og <em>ikke matchende</em> hvis de ikke matcher. "
+"Hvis URL efterlades blank betyder det, at brugeren ikke redirectes. "
+"<strong>Alle matches foretages som regulære udtryk</strong>.\n"
 
 #: models/database.php:94 models/module.php:161
 msgid "WordPress"
 msgstr "WordPress"
 
-#: models/database.php:95 models/module.php:160 view/admin/module_item.php:27
+#: models/database.php:95 models/module.php:160
 msgid "Apache"
 msgstr "Apache"
 
@@ -192,59 +237,61 @@ msgstr "404"
 
 #: models/database.php:101
 msgid "Redirections"
-msgstr "Reindirizzamenti"
+msgstr "Redirections"
 
 #: models/database.php:102
 msgid "Modified Posts"
-msgstr "Post modificati"
+msgstr "Ændrede poster"
 
 #: models/group.php:194
 msgid "Yes"
-msgstr "Sì"
+msgstr "Ja"
 
 #: models/group.php:195
 msgid "No"
-msgstr "No"
+msgstr "Nej"
 
 #: models/module.php:162
 msgid "404 Errors"
-msgstr "Errori 404"
+msgstr "404 Fejl"
 
 #: models/module.php:187
 msgid "Strip WWW"
-msgstr "Rimuovi WWW"
+msgstr "Fjern WWW"
 
 #: models/module.php:187
 msgid "Force WWW"
-msgstr "Forza WWW"
+msgstr "Forcér WWW"
 
 #: models/module.php:192
 msgid "Strip index.php"
-msgstr "Rimuovi index.php"
+msgstr "Fjern index.php"
 
-#: models/pager.php:389
+#: models/pager.php:404
 msgid "Previous"
-msgstr "Precedente"
+msgstr "Forrige"
 
-#: models/pager.php:390
+#: models/pager.php:405
 msgid "Next"
-msgstr "Successivo"
+msgstr "Næste"
 
-#: models/pager.php:448
+#: models/pager.php:463
+#, php-format
 msgid "%d per-page"
-msgstr "%d per pagina"
+msgstr "%d pr. side"
 
-#: models/pager.php:457
+#: models/pager.php:472
+#, php-format
 msgid "Displaying %s&#8211;%s of %s"
-msgstr "Mostrati %s&#8211;%s su %s"
+msgstr "Viser %s&#8211;%s af %s"
 
 #: models/redirect.php:386
 msgid "Redirect to URL"
-msgstr "Reindirizza a URL"
+msgstr "Redirect til URL"
 
 #: models/redirect.php:387
 msgid "Redirect to random post"
-msgstr "Reindirizza a un post a caso"
+msgstr "Redirect til tilfældigt indlæg"
 
 #: models/redirect.php:388
 msgid "Pass-through"
@@ -252,63 +299,66 @@ msgstr "Pass-through"
 
 #: models/redirect.php:389
 msgid "Error (404)"
-msgstr "Errore (404)"
+msgstr "Fejl (404)"
 
 #: models/redirect.php:390
 msgid "Do nothing"
-msgstr "Non fare niente"
+msgstr "Gør ingenting"
 
 #: modules/404.php:37
 msgid "Log 404s"
-msgstr "Crea log per gli errori 404"
+msgstr "Log 404"
 
 #: modules/404.php:46 modules/wordpress.php:121
 msgid ""
 "<strong>Disabled: You must enable <a href=\"options-permalink.php"
 "\">permalinks</a> before using this</strong>"
 msgstr ""
-"<strong>Disattivato: occorre attivare i <a href=\"options-permalink.php"
-"\">permalink</a> prima di poterlo usare</strong>"
+"<strong>Deaktiveret: Du skal aktivere <a href=\"options-permalink.php"
+"\">permalinks</a> før du kan bruge det</strong>"
 
 #: modules/404.php:57
 msgid "<small>No options have been set</small>"
-msgstr "<small>Non è stata selezionata nessuna opzione</small>"
+msgstr "<small>Ingen indstillinger blev ændret</small>"
 
 #: modules/apache.php:77
 msgid "Location"
-msgstr "Path"
+msgstr "Lokation"
 
 #: modules/apache.php:82
+#, php-format
 msgid "WordPress is installed in: <code>%s</code>"
-msgstr "WordPress è installato in: <code>%s</code>"
+msgstr "WordPress er installeret i: <code>%s</code>"
 
 #: modules/apache.php:87
 msgid "Canonical"
-msgstr "Canonica"
+msgstr "Canonical"
 
 #: modules/apache.php:90 modules/apache.php:96
 msgid "Leave as is"
-msgstr "Lascia com'è"
+msgstr "Ingen ændriger"
 
 #: modules/apache.php:90
+#, php-format
 msgid "Strip WWW (%s)"
-msgstr "Rimuovi WWW (%s)"
+msgstr "Fjern WWW (%s)"
 
 #: modules/apache.php:90
+#, php-format
 msgid "Force WWW (www.%s)"
-msgstr "Forza WWW (www.%s)"
+msgstr "Forcér WWW (www.%s)"
 
 #: modules/apache.php:94
 msgid "Strip Index"
-msgstr "Rimuovi Index"
+msgstr "Fjern Index"
 
 #: modules/apache.php:96
 msgid "Strip index files (html,php)"
-msgstr "Rimuovi i file index (html, php)"
+msgstr "Fjern index filer (html,php)"
 
 #: modules/apache.php:101
 msgid "Memory Limit"
-msgstr "Limite memoria"
+msgstr "Hukommelsesbegrænsning"
 
 #: modules/apache.php:104 modules/apache.php:109
 msgid "Server default"
@@ -316,166 +366,100 @@ msgstr "Server default"
 
 #: modules/apache.php:107
 msgid "Error Level"
-msgstr "Livello d'errore"
+msgstr "Fejl Level"
 
 #: modules/apache.php:109
 msgid "No errors"
-msgstr "Nessun errore"
+msgstr "Ingen fejl"
 
 #: modules/apache.php:109
 msgid "Show errors"
-msgstr "Mostra gli errori"
+msgstr "Vis fejl"
 
 #: modules/apache.php:114
 msgid "Ban IPs"
-msgstr "Blocca IP"
+msgstr "Ekskludér IPs"
 
 #: modules/apache.php:120
 msgid "Allow IPs"
-msgstr "Approva IP"
+msgstr "Tillad IPs"
 
 #: modules/apache.php:126
 msgid "Raw .htaccess"
-msgstr "Contenuto .htaccess"
+msgstr "Rå .htaccess"
 
 #: modules/apache.php:132
 msgid "Site URL"
-msgstr "URL sito"
+msgstr "Site URL"
 
 #: modules/apache.php:135
 msgid "Advanced: For management of external sites"
-msgstr "Avanzato: per la gestione di siti esterni"
+msgstr "Avanceret: For håndtering af eksterne sites"
 
 #: modules/apache.php:150
 msgid "<strong>Location is invalid - check that path exists</strong>"
-msgstr "<strong>Path non valido - controllare che il path esista</strong>"
+msgstr "<strong>Lokationen er ugyldig - check at stien eksisterer</strong>"
 
 #: modules/apache.php:156
 msgid ""
 "<strong>Could not write to configured <code>.htaccess</code> file - check "
 "file permissions</strong>"
 msgstr ""
-"<strong>Non è possibile modificare il file <code>.htaccess</code> - "
-"controllare i permessi del file</strong>"
+"<strong>Kunne ikke skrive til konfigurerede <code>.htaccess</code> fil - "
+"check fil tilladelser</strong>"
 
 #: modules/apache.php:163
 msgid ""
 "<strong>Disabled: enter the location of an <code>.htaccess</code> file for "
 "this to be valid</strong>"
 msgstr ""
-"<strong>Disattivato: inserire la posizione del file <code>.htaccess</code> "
-"per attivarlo</strong>"
+"<strong>Deaktiveret: indtast lokationen af <code>.htaccess</code> filen for "
+"at gøre dette validt</strong>"
 
 #: modules/apache.php:168
 msgid "strip WWW"
-msgstr "rimuovi WWW"
+msgstr "fjern WWW"
 
 #: modules/apache.php:168
 msgid "force WWW"
-msgstr "forza WWW"
+msgstr "forcér WWW"
 
 #: modules/apache.php:171
 msgid "strip index"
-msgstr "rimuovi index"
+msgstr "fjern index"
 
 #: modules/apache.php:174
+#, php-format
 msgid "memory limit at %dMB"
-msgstr "limite memoria a %d MB"
+msgstr "Hukommelsesbegræsning på %dMB"
 
 #: modules/apache.php:177
 msgid "no errors"
-msgstr "nessun errore"
+msgstr "ingen fejl"
 
 #: modules/apache.php:177
 msgid "show errors"
-msgstr "mostra errori"
+msgstr "vis fejl"
 
 #: modules/apache.php:180
 msgid "IPs are banned"
-msgstr "Sono bloccati gli IP"
+msgstr "IPs er ekskluderet"
 
 #: modules/apache.php:183
 msgid "IPs are allowed"
-msgstr "Sono permessi gli IP"
-
-#: redirection.php:94
-msgid "Settings"
-msgstr "Impostazioni"
-
-#: redirection.php:112
-msgid "Please wait..."
-msgstr "Attendere prego..."
-
-#: redirection.php:115 view/admin/group_list.php:118
-#: view/admin/item_list.php:113 view/admin/log.php:113
-msgid "Are you sure?"
-msgstr "Sei sicuro?"
-
-#: redirection.php:116 view/admin/group_list.php:117
-#: view/admin/item_list.php:112 view/admin/log.php:112
-msgid "No items have been selected"
-msgstr "Nessun elemento è stato selezionato"
-
-#. Plugin Name of the plugin/theme
-#: redirection.php:121
-msgid "Redirection"
-msgstr "Redirection"
-
-#: redirection.php:159
-msgid "Your module was successfully created"
-msgstr "Il modulo è stato creato con successo"
-
-#: redirection.php:163
-msgid "Your module was not created - did you provide a name?"
-msgstr "Il modulo non è stato creato - è stato inserito un nome?"
-
-#: redirection.php:228
-msgid "Your options were updated"
-msgstr "Le opzioni sono state aggiornate"
-
-#: redirection.php:236
-msgid "Redirection data has been deleted and the plugin disabled"
-msgstr ""
-"I dati di Redirection sono stati rimossi e il plugin è stato disattivato"
-
-#: redirection.php:246
-msgid "%d redirection was successfully imported"
-msgid_plural "%d redirections were successfully imported"
-msgstr[0] "%d reindirizzamento importato con successo"
-msgstr[1] "%d reindirizzamenti importati con successo"
-
-#: redirection.php:248
-msgid "No items were imported"
-msgstr "Non è stato importato nessun elemento"
-
-#: redirection.php:266
-msgid "Your logs have been deleted"
-msgstr "I log sono stati cancellati"
-
-#: redirection.php:289
-msgid "Your group was added successfully"
-msgstr "Il gruppo è stato aggiunto con successo"
-
-#: redirection.php:293
-msgid "Please specify a group name"
-msgstr "Inserire il nome del gruppo"
-
-#: redirection.php:330
-msgid "Redirection is available in"
-msgstr "Redirection è disponibile a"
+msgstr "IPs er tilladte"
 
 #: view/admin/add.php:3
 msgid "Add new redirection"
-msgstr "Aggiungi un nuovo reindirizzamento"
+msgstr "Tilføj ny redirection."
 
 #: view/admin/add.php:6
 msgid "Your redirection has been added."
-msgstr "Il reindirizzamento è stato creato."
+msgstr "Dit redirect er tilføjet."
 
-#: view/admin/add.php:12 view/admin/item_edit.php:15 view/admin/log.php:68
-#: view/admin/log_item_details.php:4
+#: view/admin/add.php:12
 msgid "Source URL"
-msgstr "URL di partenza"
+msgstr "Kilde URL"
 
 #: view/admin/add.php:16
 msgid "Match"
@@ -483,25 +467,25 @@ msgstr "Match"
 
 #: view/admin/add.php:22
 msgid "Action"
-msgstr "Azione"
+msgstr "Action"
 
 #: view/admin/add.php:27
 msgid "Regular expression"
-msgstr "Espressione regolare (regex)"
+msgstr "Regulært udtryk"
 
-#: view/admin/add.php:36 view/admin/item_list.php:24 view/admin/log.php:43
+#: view/admin/add.php:36
 msgid "Group"
-msgstr "Gruppo"
+msgstr "Gruppe"
 
 #: view/admin/add.php:43
 msgid "Add Redirection"
-msgstr "Crea reindirizzamento"
+msgstr "Tilføj redirect"
 
 #: view/admin/group_edit.php:6 view/admin/group_list.php:37
 #: view/admin/group_list.php:100 view/admin/module_edit.php:18
 #: view/admin/module_list.php:42
 msgid "Name"
-msgstr "Nome"
+msgstr "Navn"
 
 #: view/admin/group_edit.php:10
 msgid "Tracked"
@@ -509,127 +493,127 @@ msgstr "Tracked"
 
 #: view/admin/group_edit.php:11
 msgid "Whether to track 'hits' to items"
-msgstr "Effettuare il tracking degli accessi a questo elemento"
+msgstr "Antal 'hits' til hver redirect "
 
 #: view/admin/group_edit.php:14
 msgid "Enabled"
-msgstr "Attivato"
+msgstr "Aktiveret"
 
 #: view/admin/group_edit.php:15
 msgid "Disabling a group will disable all items contained within it"
 msgstr ""
-"Disattivando un gruppo, tutti gli elementi in esso contenuti verranno "
-"disattivati"
+"Deaktivering af en gruppe vil deaktivere all objekter indeholdt i gruppen"
 
 #: view/admin/group_edit.php:20 view/admin/item_edit.php:27
 #: view/admin/module_edit.php:27
 msgid "Save"
-msgstr "Salva"
+msgstr "Gem"
 
 #: view/admin/group_edit.php:21 view/admin/item_edit.php:28
 #: view/admin/module_edit.php:28
 msgid "Cancel"
-msgstr "Annulla"
+msgstr "Annullér"
 
 #: view/admin/group_item.php:3
 msgid "edit group"
-msgstr "modifica gruppo"
+msgstr "redigér gruppe"
 
 #: view/admin/group_item.php:23 view/admin/item.php:27
 msgid "disabled"
-msgstr "disattivato"
+msgstr "deaktiveret"
 
 #: view/admin/group_list.php:6
 msgid "Groups for module"
-msgstr "Gruppi per il modulo"
+msgstr "Grupper for moduler"
 
 #: view/admin/group_list.php:16 view/admin/log.php:38
 msgid "Module"
-msgstr "Modulo"
+msgstr "Modul"
 
 #: view/admin/group_list.php:21 view/admin/item_list.php:29
 #: view/admin/log.php:16 view/admin/log.php:23
 msgid "Search"
-msgstr "Cerca"
+msgstr "Søg"
 
 #: view/admin/group_list.php:26
 msgid "go"
-msgstr "vai"
+msgstr "send"
 
 #: view/admin/group_list.php:36 view/admin/item_list.php:42
 #: view/admin/module_list.php:17
 msgid "Hits"
-msgstr "Visite"
+msgstr "Hits"
 
 #: view/admin/group_list.php:59 view/admin/item_list.php:67
 msgid "Select All"
-msgstr "Seleziona tutto"
+msgstr "Vælg Alle"
 
 #: view/admin/group_list.php:60 view/admin/item_list.php:68
 msgid "Toggle"
-msgstr "Inverti"
+msgstr "Skift"
 
 #: view/admin/group_list.php:61 view/admin/item_list.php:69
 msgid "Reset Hits"
-msgstr "Azzera visite"
+msgstr "Nulstil Hits"
 
 #: view/admin/group_list.php:62 view/admin/item_list.php:70
 #: view/admin/log.php:30 view/admin/options.php:120
 msgid "Delete"
-msgstr "Rimuovi"
+msgstr "Slet"
 
 #: view/admin/group_list.php:64 view/admin/item_list.php:72
 msgid "Move To"
-msgstr "Sposta in"
+msgstr "Flyt til"
 
 #: view/admin/group_list.php:69 view/admin/item_list.php:34
 #: view/admin/item_list.php:77
 msgid "Go"
-msgstr "Vai"
+msgstr "Send"
 
 #: view/admin/group_list.php:75 view/admin/item_list.php:83
 msgid "re-order"
-msgstr "riordina"
+msgstr "Sorter"
 
 #: view/admin/group_list.php:76 view/admin/item_list.php:84
 msgid "save order"
-msgstr "salva ordine"
+msgstr "gem opstilling"
 
 #: view/admin/group_list.php:89
 msgid "You have no groups in this module."
-msgstr "Non ci sono gruppi in questo modulo."
+msgstr "Du har ingen grupper i modulet"
 
 #: view/admin/group_list.php:94
 msgid "Add Group"
-msgstr "Aggiungi gruppo"
+msgstr "Tilføj gruppe"
 
 #: view/admin/group_list.php:105
 msgid "Add"
-msgstr "Aggiungi"
+msgstr "Tilføj"
 
 #: view/admin/item_edit.php:3
+#, php-format
 msgid "%s by matching %s"
-msgstr "%s nel caso di: %s"
+msgstr "%s ved at matche %s"
 
 #: view/admin/item_edit.php:7
 msgid "Title"
-msgstr "Titolo"
+msgstr "Titel"
 
 #: view/admin/item_edit.php:10
 msgid "optional"
-msgstr "opzionale"
+msgstr "valgfri"
 
 #: view/admin/item_list.php:7
 msgid "Redirections for group"
-msgstr "Reindirizzamenti per il gruppo"
+msgstr "Redirections for gruppe"
 
 #: view/admin/item_list.php:41
 msgid "Last Access"
-msgstr "Ultimo accesso"
+msgstr "Sidste adgang"
 
 #: view/admin/item_list.php:43 view/admin/module_list.php:46
 msgid "Type"
-msgstr "Tipo"
+msgstr "Type"
 
 #: view/admin/item_list.php:44
 msgid "URL"
@@ -637,31 +621,31 @@ msgstr "URL"
 
 #: view/admin/item_list.php:44
 msgid "Position"
-msgstr "Path"
+msgstr "Position"
 
 #: view/admin/item_list.php:88
 msgid "You have no redirections."
-msgstr "Non ci sono reindirizzamenti."
+msgstr "Du har ingen redirects"
 
 #: view/admin/log.php:6
 msgid "Redirection Log"
-msgstr "Log reindirizzamenti"
+msgstr "Redirection Log"
 
 #: view/admin/log.php:29
 msgid "Bulk Actions"
-msgstr "Azioni di massa"
+msgstr "Flere handlinger"
 
 #: view/admin/log.php:33
 msgid "Apply"
-msgstr "Applica"
+msgstr "Tilføj"
 
 #: view/admin/log.php:49
 msgid "Filter"
-msgstr "Filtro"
+msgstr "Filter"
 
 #: view/admin/log.php:67
 msgid "Date"
-msgstr "Data"
+msgstr "Dato"
 
 #: view/admin/log.php:70
 msgid "IP"
@@ -669,39 +653,39 @@ msgstr "IP"
 
 #: view/admin/log.php:85
 msgid "There are no logs to display!"
-msgstr "Non ci sono log da mostrare!"
+msgstr "Der er ingen logs at vise"
 
 #: view/admin/log.php:94
 msgid "Process Current Logs"
-msgstr "Processa il log corrente"
+msgstr "Proces for nuværende logs"
 
 #: view/admin/log.php:95
 msgid ""
 "These actions will affect all currently available logs (i.e. your search "
 "phrase will restrict the log items)."
 msgstr ""
-"Queste azioni verranno effettuate su tutti i log esistenti (ad esempio la "
-"frase di ricerca limiterà gli elementi del log)."
+"Tilføjelserne vil påvirke alle nuværende tilgængelige logs (dvs. din "
+"søgeforespørgsel vil filtrere de forskellige logs)"
 
 #: view/admin/log.php:100
 msgid "Delete Logs"
-msgstr "Cancella i log"
+msgstr "Fjern logs"
 
 #: view/admin/log_item_details.php:9
 msgid "Redirect to"
-msgstr "Reindirizza a"
+msgstr "Redirect til"
 
 #: view/admin/log_item_details.php:15
 msgid "Redirected by"
-msgstr "Reindirizzato da"
+msgstr "Redirected af"
 
 #: view/admin/log_item_details.php:16
 msgid "for"
-msgstr "per"
+msgstr "For"
 
 #: view/admin/module_item.php:23
 msgid "View as"
-msgstr "Mostra come"
+msgstr "Vis som"
 
 #: view/admin/module_item.php:25
 msgid "CSV"
@@ -717,47 +701,47 @@ msgstr "RSS"
 
 #: view/admin/module_item.php:41
 msgid "edit"
-msgstr "modifica"
+msgstr "redigér"
 
 #: view/admin/module_item.php:43
 msgid "delete"
-msgstr "rimuovi"
+msgstr "slet"
 
 #: view/admin/module_item.php:45
 msgid "reset"
-msgstr "azzera"
+msgstr "nulstil"
 
 #: view/admin/module_list.php:6 view/admin/submenu.php:16
 msgid "Modules"
-msgstr "Moduli"
+msgstr "Moduler"
 
 #: view/admin/module_list.php:14
 msgid "Details"
-msgstr "Dettagli"
+msgstr "Detaljer"
 
 #: view/admin/module_list.php:15 view/admin/submenu.php:11
 msgid "Groups"
-msgstr "Gruppi"
+msgstr "Grupper"
 
 #: view/admin/module_list.php:16
 msgid "Items"
-msgstr "Elementi"
+msgstr "Objekter"
 
 #: view/admin/module_list.php:18
 msgid "Operations"
-msgstr "Operazioni"
+msgstr "Operationer"
 
 #: view/admin/module_list.php:27
 msgid "Note: Hits are dependant on log entries"
-msgstr "Nota: le visite dipendono dalle informazioni del log"
+msgstr "Bemærk: Hits er afhængig af log tilføjelser"
 
 #: view/admin/module_list.php:29
 msgid "You have no modules defined yet"
-msgstr "Non ci sono moduli definiti"
+msgstr "Du har ikke defineret nogle moduler endnu"
 
 #: view/admin/module_list.php:34
 msgid "Add Module"
-msgstr "Aggiungi modulo"
+msgstr "Tilføj Modul"
 
 #: view/admin/module_list.php:35
 msgid ""
@@ -766,23 +750,22 @@ msgid ""
 "in an Apache module are handled by <code>.htaccess</code>, and elements in a "
 "404 module affect how 404 errors are logged."
 msgstr ""
-"Il modulo è un elemento di controllo che determina la gestione dei "
-"reindirizzamenti. Gli elementi di un modulo di WordPress sono gestiti da "
-"WordPress, gli elementi in un modulo di Apache sono gestiti dal file <code>."
-"htaccess</code> e gli elementi di un modulo 404 influenzeranno la gestione "
-"del log per gli errori 404."
+"Et modul er et element, der kontrollerer hvordan redirects håndteres. "
+"Elementer i et WordPress modul er håndteret af WordPress, elementer i et "
+"Apache modul er håndteret i <code>.htaccess</code>, og elementer i et 404 "
+"modul påvirker hvordan 404 fejl er gemt."
 
 #: view/admin/module_list.php:55
 msgid "Create"
-msgstr "Crea"
+msgstr "Tilføj"
 
 #: view/admin/options.php:6 view/admin/submenu.php:26
 msgid "Options"
-msgstr "Opzioni"
+msgstr "Indstillinger"
 
 #: view/admin/options.php:15
 msgid "Auto-generate URL"
-msgstr "Genera URL automaticamente"
+msgstr "Auto-generér URL"
 
 #: view/admin/options.php:19
 msgid ""
@@ -790,34 +773,35 @@ msgid ""
 "the special tags $dec$ or $hex$ to have a unique ID inserted (either decimal "
 "or hex)"
 msgstr ""
-"Se non viene inserita nessuna URL, questa stringa verrà usata per generarne "
-"automaticamente una. È possibile usare i tag speciali $dec$ o $hex$ per "
-"inserire un ID unico (decimale o esadecimale)"
+"Dette vil blive brugt til at auto-generere en URL hvis ingen URL er givet. "
+"Du kan bruge specielle tags $dec$ eller $hex$ for at indsætte en unik ID "
+"(enten decimal eller hex)"
 
 #: view/admin/options.php:24
 msgid "IP Lookup Service"
-msgstr "Servizio di ricerca IP"
+msgstr "IP Lookup Service"
 
 #: view/admin/options.php:30
 msgid "Plugin Support"
-msgstr "Supporto plugin"
+msgstr "Plugin Support"
 
 #: view/admin/options.php:33
 msgid "I'm a nice person and I have helped support the author of this plugin"
 msgstr ""
-"Sono una brava persona e ho contribuito a sostenere l'autore di questo plugin"
+"Jeg er en flink person og jeg har hjulpet vedkommende, der har udarbejdet "
+"dette plugin."
 
 #: view/admin/options.php:37
 msgid "Logging"
-msgstr "Login in corso"
+msgstr "Logging"
 
 #: view/admin/options.php:40
 msgid "log redirected requests"
-msgstr "crea log delle richieste di reindirizzamento"
+msgstr "log redirectede forespørgelser"
 
 #: view/admin/options.php:42
 msgid "log 404 Not Found requests"
-msgstr "crea log delle richieste 404 Not Found"
+msgstr "log 404 ikke fundet forespørgelser"
 
 #: view/admin/options.php:43
 msgid ""
@@ -825,91 +809,89 @@ msgid ""
 "your redirected URLs are hit very frequently, and/or your site is very busy "
 "and pages are often not found."
 msgstr ""
-"Deselezionare una o entrambe le opzioni per non creare log delle richieste e "
-"ridurre il carico del database. Consigliabile nel caso in cui il carico di "
-"reindirizzamenti sia alto, e/o nel caso in cui il sito abbia un alto numero "
-"di visitatori e vi siano molte pagine rimosse."
+"Fravælg en eller begge af disse for at fjerne logging og reducér database "
+"load hvis dine redirectede URLs bliver forespurgt på hyppigt, og/eller hvis "
+"dit website er meget besøgt eller siderne ofte ikke kan findes."
 
 #: view/admin/options.php:47
 msgid "Expire Logs"
-msgstr "I log scadono dopo"
+msgstr "Logs udløber efter"
 
 #: view/admin/options.php:50
 msgid "days (enter 0 for no expiry)"
-msgstr "giorni (inserire 0 per nessuna scadenza)"
+msgstr "dage (indtast 0 for ingen udløbsdato)"
 
 #: view/admin/options.php:54
 msgid "RSS Token"
-msgstr "Token RSS"
+msgstr "RSS Token"
 
 #: view/admin/options.php:57
 msgid ""
 "A unique token allowing feed readers access to Redirection RSS (leave blank "
 "to auto-generate)"
 msgstr ""
-"Un token unico permette ai feed reader di accedere ai feed RSS di "
-"Redirection (lasciare vuoto per generarlo automaticamente)"
+"En unik token der tillader feed readers adgang til Redirection RSS (undgå at "
+"udfylde for at auto-generere)"
 
 #: view/admin/options.php:62
 msgid "URL Monitoring"
-msgstr "Controllo URL"
+msgstr "URL Monitorering"
 
 #: view/admin/options.php:63
 msgid ""
 "You can have Redirection detect changes in URLs and have an automatic "
 "redirection created in a specific group."
 msgstr ""
-"È possibile impostare Redirection per identificare i cambiamenti nelle URL e "
-"creare automaticamente un reindirizzamento in un gruppo specifico."
+"Du kan sætte Redirection til at opdage ændringer i URLs automatisk og "
+"opsætte automatiske redirections i en specifik gruppe."
 
 #: view/admin/options.php:67
 msgid "Post &amp; Page URLs"
-msgstr "URL dei post e delle pagine"
+msgstr "Indlæg og Side URLs"
 
 #: view/admin/options.php:70 view/admin/options.php:82
 msgid "Don't monitor"
-msgstr "Non controllare"
+msgstr "Monitorér ikke"
 
 #: view/admin/options.php:74
 msgid "Monitor new posts"
-msgstr "Controlla i nuovi post"
+msgstr "Monitorér nye indlæg"
 
 #: view/admin/options.php:79
 msgid "Category URLs"
-msgstr "URL della categoria"
+msgstr "Kategori URLs"
 
 #: view/admin/options.php:89
 msgid "Update"
-msgstr "Aggiorna"
+msgstr "Opdatér"
 
 #: view/admin/options.php:95
 msgid "Import"
-msgstr "Importa"
+msgstr "Importér"
 
 #: view/admin/options.php:97
 msgid ""
 "Here you can import redirections from an existing .htaccess file, a CSV "
 "file, or a Redirection XML."
 msgstr ""
-"È possibile importare reindirizzamenti direttamente da un file .htacess, CSV "
-"o XML già esistente."
+"Her kan du importere redirections fra en eksisterende .htaccess fil, en csv "
+"fil, eller en Redirection XML."
 
 #: view/admin/options.php:104
 msgid "Import into"
-msgstr "Importa in"
+msgstr "Importér i"
 
 #: view/admin/options.php:107
 msgid "Upload"
-msgstr "Carica"
+msgstr "Upload"
 
 #: view/admin/options.php:110
 msgid "Note that the group is ignored when uploading an XML file."
-msgstr ""
-"Nota: il gruppo viene ignorato quando si effettua l'upload di un file XML."
+msgstr "Bemærk at gruppen er ignoreret når du uploader en XML fil."
 
 #: view/admin/options.php:114
 msgid "Delete Redirection"
-msgstr "Rimuovi Redirection"
+msgstr "Fjern Rediretion."
 
 #: view/admin/options.php:115
 msgid ""
@@ -917,13 +899,13 @@ msgid ""
 "options associated with the Redirection plugin.  Make sure this is what you "
 "want to do."
 msgstr ""
-"Selezionando questa opzione tutti i reindirizzamenti, i log e qualunque "
-"altra opzione associata con Redirection verranno cancellati. Assicurarsi che "
-"questo è proprio ciò che si vuole fare."
+"Ved at vælge denne mulighed sletter du alle redirections, alle logs, og alle "
+"indstillinger associeret med plugin'et Redirection. Vær helt sikker på at "
+"det er det, du vil."
 
 #: view/admin/submenu.php:6
 msgid "Redirects"
-msgstr "Reindirizzamenti"
+msgstr "Redirects"
 
 #: view/admin/submenu.php:21
 msgid "Log"
@@ -931,11 +913,11 @@ msgstr "Log"
 
 #: view/admin/submenu.php:31
 msgid "Support"
-msgstr "Supporto"
+msgstr "Support"
 
 #: view/admin/support.php:5
 msgid "Redirection Support"
-msgstr "Forum di supporto Redirection"
+msgstr "Redirection Support"
 
 #: view/admin/support.php:9
 msgid ""
@@ -944,10 +926,10 @@ msgid ""
 "useful you can help support this development by <strong>making a small "
 "donation</strong>."
 msgstr ""
-"Redirection può essere utilizzato gratuitamente - la vita è davvero "
-"fantastica e piena di tante belle cose! Lo sviluppo di questo plugin "
-"richiede comunque molto tempo e lavoro, sarebbe pertanto gradito il tuo "
-"sostegno <strong>tramite una piccola donazione</strong>."
+"Redirection er gratis at bruge - livet er fantastisk og perfekt. Men "
+"Redirection har taget lang tid at udvikle, så hvis du finder det brugbart, "
+"kan du hjælpe med at supportere udviklingen yderligere ved at <strong>donere "
+"et lille beløb</strong>."
 
 #: view/admin/support.php:10
 msgid ""
@@ -955,10 +937,10 @@ msgid ""
 "countless hours of support, and including new features and suggestions. You "
 "get some useful software and I get to carry on making it.  Everybody wins."
 msgstr ""
-"Questo mi spronerebbe a proseguirne lo sviluppo, incluse le numerose ore "
-"dedicate al supporto, l'inserimento di nuove caratteristiche e suggerimenti. "
-"Tu riceverai un software utile e io continuerò a fornirtelo. Insomma, ci "
-"guadagnamo tutti."
+"Dette vil være et incitament for mig til at forsætte med at programmere, "
+"udvikle yderligere tiltag og bruge uendeligt mange timer på support. Du får "
+"brugbar software og jeg får muligheden for at blive ved med at udvikle det. "
+"Alle vinder."
 
 #: view/admin/support.php:13
 msgid ""
@@ -966,27 +948,27 @@ msgid ""
 "particularly useful, then you may want to consider a <strong>commercial "
 "donation</strong>."
 msgstr ""
-"Se hai intenzione di utilizzare questo plugin su un sito commerciale, o "
-"ritieni che sia particolarmente utile, puoi magari pensare di effettuare una "
-"<strong>donazione commerciale</strong>."
+"Hvis du benytter dette plugin i kommercielt øjemed eller føler at plugin'et "
+"er særdeles brugbart, vil jeg bede dig om at overveje en <strong>kommerciel "
+"donation</strong>."
 
 #: view/admin/support.php:36
 msgid "Individual<br/>Donation"
-msgstr "Donazione<br/>individuale"
+msgstr "Individuel donation"
 
 #: view/admin/support.php:56
 msgid "Commercial<br/>Donation"
-msgstr "Donazione<br/>commerciale"
+msgstr "Kommerciel<br/>Donation"
 
 #: view/admin/support.php:60
 msgid "Translations"
-msgstr "Traduzioni"
+msgstr "Oversættelser"
 
 #: view/admin/support.php:62
 msgid ""
 "If you're multi-lingual then you may want to consider donating a translation:"
 msgstr ""
-"Se parli più lingue potresti essere interessato a donare una traduzione."
+"Hvis du er flersproget vil du måske overveje at donere en oversættelse:"
 
 #: view/admin/support.php:70
 msgid ""
@@ -994,9 +976,9 @@ msgid ""
 "homepage at <a href=\"http://urbangiraffe.com/plugins/redirection/"
 "\">UrbanGiraffe</a>, in addition to being an individual supporter."
 msgstr ""
-"Tutti i traduttori verranno citati inserendo un link al loro sito internet "
-"su <a href=\"http://urbangiraffe.com/plugins/redirection/\">UrbanGiraffe</"
-"a>, oltre a diventare sostenitori individuali."
+"All oversættere vil få et link til deres website placeret på hjemmesiden for "
+"plugin'et på <a href=\"http://urbangiraffe.com/plugins/redirection/"
+"\">UrbanGiraffe</a>, udover at være en individuel supporter."
 
 #: view/admin/support.php:71
 msgid ""
@@ -1004,74 +986,6 @@ msgid ""
 "\"http://urbangiraffe.com/articles/translating-wordpress-themes-and-plugins/"
 "\">guide to translating WordPress plugins</a>."
 msgstr ""
-"I dettagli completi su come creare una traduzione sono presenti nella <a "
-"href=\"http://urbangiraffe.com/articles/translating-wordpress-themes-and-"
-"plugins/\">guida per tradurre i plugin di WordPress</a>."
-
-#. Plugin URI of the plugin/theme
-msgid "http://urbangiraffe.com/plugins/redirection/"
-msgstr "http://urbangiraffe.com/plugins/redirection/"
-
-#. Description of the plugin/theme
-msgid "Manage all your 301 redirects and monitor 404 errors"
-msgstr "Gestisci tutti i redirect 301 and controlla tutti gli errori 404"
-
-#. Author of the plugin/theme
-msgid "John Godley"
-msgstr "John Godley"
-
-#. Author URI of the plugin/theme
-msgid "http://urbangiraffe.com"
-msgstr "http://urbangiraffe.com"
-
-#~ msgid "Redirection Help"
-#~ msgstr "Aiuto Redirection"
-
-#~ msgid "Redirection Documentation"
-#~ msgstr "Documentazione Redirection"
-
-#~ msgid "Redirection Support Forum"
-#~ msgstr "Forum di supporto Redirection"
-
-#~ msgid "Redirection Bug Tracker"
-#~ msgstr "Bug Tracker Redirection"
-
-#~ msgid "Redirection FAQ"
-#~ msgstr "Redirection FAQ"
-
-#~ msgid ""
-#~ "Please read the documentation and FAQ, and check the bug tracker, before "
-#~ "asking a question."
-#~ msgstr ""
-#~ "Prima di porre una domanda, si prega di leggere attentamente la "
-#~ "documentazione e le FAQ, e controllare il bug tracker."
-
-#~ msgid " for external site: <code>%s</code>"
-#~ msgstr " per il sito esterno: <code>%s</code>"
-
-#~ msgid "Strip index files (html,php,asp)"
-#~ msgstr "Rimuovi i file index  (html,php,asp)"
-
-#~ msgid "Time Limit"
-#~ msgstr "Tempo limite"
-
-#~ msgid "30 seconds"
-#~ msgstr "30 secondi"
-
-#~ msgid "1 minute"
-#~ msgstr "1 minuto"
-
-#~ msgid "2 minutes"
-#~ msgstr "2 minuti"
-
-#~ msgid "5 minutes"
-#~ msgstr "5 minuti"
-
-#~ msgid "As long as possible"
-#~ msgstr "Il più lungo possibile"
-
-#~ msgid "time limit set as long as possible"
-#~ msgstr "tempo limite settato al massimo possibile"
-
-#~ msgid "time limit at %ss"
-#~ msgstr "tempo limite di %s s"
+"Alle detaljer for at oversætte et plugin kan findes i denne <a href=\"http://"
+"urbangiraffe.com/articles/translating-wordpress-themes-and-plugins/\">guide "
+"til at oversætte WordPress Plugins</a>."
